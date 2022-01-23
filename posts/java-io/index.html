@@ -26,7 +26,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/acking-you.gitee.io\/posts\/java-io\/"
-        },"genre": "posts","keywords": "Java I\/O","wordcount":  7465 ,
+        },"genre": "posts","keywords": "Java I\/O","wordcount":  8562 ,
         "url": "https:\/\/acking-you.gitee.io\/posts\/java-io\/","datePublished": "2022-01-23T00:00:00+00:00","dateModified": "2022-01-23T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": "作者"},"author": {
@@ -108,8 +108,8 @@
         alt="https://s4.ax1x.com/2022/01/22/7hWrhn.png"
         title="Java I/O" /></div><div class="single-card" data-image="true"><h2 class="single-title animated flipInX">Java I/O</h2><div class="post-meta">
                 <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>作者</a></span>&nbsp;<span class="post-category">出版于  <a href="/categories/javase%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>JavaSE笔记</a></span></div>
-                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-01-23">2022-01-23</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 7465 字</span>&nbsp;
-                    <span><i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 15 分钟</span>&nbsp;</div>
+                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-01-23">2022-01-23</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 8562 字</span>&nbsp;
+                    <span><i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 18 分钟</span>&nbsp;</div>
             </div>
             
             <hr><div class="details toc" id="toc-static"  data-kept="">
@@ -665,7 +665,181 @@
 <h2 id="java-io编程实战">Java I/O编程实战</h2>
 <h3 id="图书管理系统">图书管理系统</h3>
 <p>要求实现一个图书管理系统（控制台），支持以下功能：保存书籍信息（要求持久化），查询、添加、删除、修改书籍信息。</p>
-</div><div class="post-footer" id="post-footer">
+<blockquote>
+<p>参考代码：</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kn">import</span> <span class="nn">java.io.*</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.util.HashSet</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.util.Objects</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Library</span> <span class="o">{</span>
+    <span class="kd">static</span> <span class="kd">private</span> <span class="n">HashSet</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="n">MAP</span><span class="o">;</span>
+
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="c1">//TODO 注意先分配内存
+</span><span class="c1"></span>        <span class="n">Scanner</span> <span class="n">scan</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Scanner</span><span class="o">(</span><span class="n">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
+        <span class="n">readData</span><span class="o">();</span>
+        <span class="k">while</span> <span class="o">(</span><span class="kc">true</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;============图书馆管理系统===========&#34;</span><span class="o">);</span>
+            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;1.插入数据&#34;</span><span class="o">);</span>
+            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;2.修改数据&#34;</span><span class="o">);</span>
+            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;3.查询图书列表&#34;</span><span class="o">);</span>
+            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;4.删除图书&#34;</span><span class="o">);</span>
+            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;(按下任意其他键退出程序)&#34;</span><span class="o">);</span>
+            <span class="n">String</span> <span class="n">str</span> <span class="o">=</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>
+            <span class="k">switch</span> <span class="o">(</span><span class="n">str</span><span class="o">)</span> <span class="o">{</span>
+                <span class="k">case</span> <span class="s">&#34;1&#34;</span><span class="o">:</span>
+                    <span class="n">insertBooks</span><span class="o">(</span><span class="n">scan</span><span class="o">);</span>
+                    <span class="k">break</span><span class="o">;</span>
+                <span class="k">case</span> <span class="s">&#34;2&#34;</span><span class="o">:</span>
+                    <span class="n">modifyBook</span><span class="o">(</span><span class="n">scan</span><span class="o">);</span>
+                    <span class="k">break</span><span class="o">;</span>
+                <span class="k">case</span> <span class="s">&#34;3&#34;</span><span class="o">:</span>
+                    <span class="n">showBooks</span><span class="o">();</span>
+                    <span class="k">break</span><span class="o">;</span>
+                <span class="k">case</span> <span class="s">&#34;4&#34;</span><span class="o">:</span>
+                    <span class="n">deleteBooks</span><span class="o">(</span><span class="n">scan</span><span class="o">);</span>
+                    <span class="k">break</span><span class="o">;</span>
+                <span class="k">default</span><span class="o">:</span>
+                    <span class="n">saveData</span><span class="o">();</span>
+                    <span class="n">scan</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+                    <span class="k">return</span><span class="o">;</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+    <span class="c1">//TODO 程序启动前，读取持久化数据
+</span><span class="c1"></span>    <span class="kd">private</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">readData</span><span class="o">(){</span>
+        <span class="n">File</span> <span class="n">file</span> <span class="o">=</span> <span class="k">new</span> <span class="n">File</span><span class="o">(</span><span class="s">&#34;data&#34;</span><span class="o">);</span>
+        <span class="k">if</span><span class="o">(</span><span class="n">file</span><span class="o">.</span><span class="na">exists</span><span class="o">()){</span>
+            <span class="k">try</span><span class="o">(</span><span class="n">ObjectInputStream</span> <span class="n">inputStream</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ObjectInputStream</span><span class="o">(</span><span class="k">new</span> <span class="n">FileInputStream</span><span class="o">(</span><span class="s">&#34;data&#34;</span><span class="o">))){</span>
+                <span class="n">MAP</span> <span class="o">=</span> <span class="o">(</span><span class="n">HashSet</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;)</span> <span class="n">inputStream</span><span class="o">.</span><span class="na">readObject</span><span class="o">();</span>
+            <span class="o">}</span><span class="k">catch</span> <span class="o">(</span><span class="n">IOException</span><span class="o">|</span><span class="n">ClassNotFoundException</span> <span class="n">e</span><span class="o">){</span>
+                <span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+            <span class="o">}</span>
+        <span class="o">}</span><span class="k">else</span> <span class="o">{</span>
+            <span class="n">MAP</span> <span class="o">=</span> <span class="k">new</span> <span class="n">HashSet</span><span class="o">&lt;&gt;();</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+    <span class="c1">//TODO 程序结束时，持久序列化保存数据
+</span><span class="c1"></span>    <span class="kd">private</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">saveData</span><span class="o">(){</span>
+        <span class="k">try</span><span class="o">(</span><span class="n">ObjectOutputStream</span> <span class="n">outputStream</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ObjectOutputStream</span><span class="o">(</span><span class="k">new</span> <span class="n">FileOutputStream</span><span class="o">(</span><span class="s">&#34;data&#34;</span><span class="o">))){</span>
+            <span class="n">outputStream</span><span class="o">.</span><span class="na">writeObject</span><span class="o">(</span><span class="n">MAP</span><span class="o">);</span>
+            <span class="n">outputStream</span><span class="o">.</span><span class="na">flush</span><span class="o">();</span>
+        <span class="o">}</span><span class="k">catch</span> <span class="o">(</span><span class="n">IOException</span> <span class="n">e</span><span class="o">){</span>
+            <span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+    <span class="c1">//TODO 修改图书数据
+</span><span class="c1"></span>    <span class="kd">private</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">modifyBook</span><span class="o">(</span><span class="n">Scanner</span> <span class="n">scan</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">showBooks</span><span class="o">();</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;输入您要修改书籍的索书号：&#34;</span><span class="o">);</span>
+        <span class="kt">int</span> <span class="n">index</span> <span class="o">=</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>
+        <span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>
+        <span class="n">Book</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Book</span><span class="o">().</span><span class="na">setIndex</span><span class="o">(</span><span class="n">index</span><span class="o">);</span>
+        <span class="k">if</span> <span class="o">(!</span><span class="n">MAP</span><span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="n">t</span><span class="o">))</span> <span class="o">{</span>
+            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;输入错误图书馆内无该书籍!&#34;</span><span class="o">);</span>
+        <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;请输入您要更改的信息：书名，作者，价格&#34;</span><span class="o">);</span>
+            <span class="n">String</span> <span class="n">name</span> <span class="o">=</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>
+            <span class="n">String</span> <span class="n">author</span> <span class="o">=</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>
+            <span class="kt">double</span> <span class="n">price</span> <span class="o">=</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextDouble</span><span class="o">();</span>
+            <span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>
+            <span class="k">for</span> <span class="o">(</span><span class="n">Book</span> <span class="n">tt</span> <span class="o">:</span> <span class="n">MAP</span><span class="o">)</span> <span class="o">{</span>
+                <span class="k">if</span> <span class="o">(</span><span class="n">tt</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">t</span><span class="o">))</span> <span class="o">{</span>
+                    <span class="n">tt</span><span class="o">.</span><span class="na">setAuthor</span><span class="o">(</span><span class="n">author</span><span class="o">);</span>
+                    <span class="n">tt</span><span class="o">.</span><span class="na">setName</span><span class="o">(</span><span class="n">name</span><span class="o">);</span>
+                    <span class="n">tt</span><span class="o">.</span><span class="na">setPrice</span><span class="o">(</span><span class="n">price</span><span class="o">);</span>
+                    <span class="k">break</span><span class="o">;</span>
+                <span class="o">}</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+
+    <span class="c1">//TODO 删除书籍
+</span><span class="c1"></span>    <span class="kd">private</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">deleteBooks</span><span class="o">(</span><span class="n">Scanner</span> <span class="n">scan</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">showBooks</span><span class="o">();</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;请输入要删除书籍的索书号：&#34;</span><span class="o">);</span>
+        <span class="kt">int</span> <span class="n">index</span> <span class="o">=</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>
+        <span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>
+        <span class="n">Book</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Book</span><span class="o">().</span><span class="na">setIndex</span><span class="o">(</span><span class="n">index</span><span class="o">);</span>
+        <span class="k">if</span> <span class="o">(!</span><span class="n">MAP</span><span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="n">t</span><span class="o">))</span> <span class="o">{</span>
+            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;索书号出错没有这样的书籍&#34;</span><span class="o">);</span>
+        <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">printf</span><span class="o">(</span><span class="s">&#34;删除索书号为:%d 的书籍成功!\n&#34;</span><span class="o">,</span> <span class="n">index</span><span class="o">);</span>
+            <span class="n">MAP</span><span class="o">.</span><span class="na">remove</span><span class="o">(</span><span class="n">t</span><span class="o">);</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+
+    <span class="c1">//TODO 显示图书信息
+</span><span class="c1"></span>    <span class="kd">private</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">showBooks</span><span class="o">()</span> <span class="o">{</span>
+        <span class="n">MAP</span><span class="o">.</span><span class="na">forEach</span><span class="o">(</span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">::</span><span class="n">println</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="c1">//TODO 插入书籍
+</span><span class="c1"></span>    <span class="kd">private</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">insertBooks</span><span class="o">(</span><span class="n">Scanner</span> <span class="n">scan</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;请输入 索书号 书名 作者 价格。每输入一个信息按下回车键确认！&#34;</span><span class="o">);</span>
+        <span class="n">MAP</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="n">Book</span><span class="o">().</span><span class="na">setIndex</span><span class="o">(</span><span class="n">scan</span><span class="o">.</span><span class="na">nextInt</span><span class="o">())</span>
+                <span class="o">.</span><span class="na">setName</span><span class="o">(</span><span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">()</span> <span class="o">+</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">())</span>
+                <span class="o">.</span><span class="na">setAuthor</span><span class="o">(</span><span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">())</span>
+                <span class="o">.</span><span class="na">setPrice</span><span class="o">(</span><span class="n">scan</span><span class="o">.</span><span class="na">nextDouble</span><span class="o">())</span>
+        <span class="o">);</span>
+        <span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>
+    <span class="o">}</span>
+
+    <span class="c1">//TODO 书籍类
+</span><span class="c1"></span>    <span class="kd">private</span> <span class="kd">static</span> <span class="kd">class</span> <span class="nc">Book</span> <span class="kd">implements</span> <span class="n">Serializable</span><span class="o">{</span>
+        <span class="kt">int</span> <span class="n">index</span><span class="o">;</span><span class="c1">//索书号
+</span><span class="c1"></span>        <span class="n">String</span> <span class="n">name</span><span class="o">;</span><span class="c1">//书名
+</span><span class="c1"></span>        <span class="n">String</span> <span class="n">author</span><span class="o">;</span><span class="c1">//作者
+</span><span class="c1"></span>        <span class="kt">double</span> <span class="n">price</span><span class="o">;</span><span class="c1">//价格
+</span><span class="c1"></span>
+        <span class="kd">public</span> <span class="n">Book</span> <span class="nf">setName</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">this</span><span class="o">.</span><span class="na">name</span> <span class="o">=</span> <span class="n">name</span><span class="o">;</span>
+            <span class="k">return</span> <span class="k">this</span><span class="o">;</span>
+        <span class="o">}</span>
+
+        <span class="kd">public</span> <span class="n">Book</span> <span class="nf">setIndex</span><span class="o">(</span><span class="kt">int</span> <span class="n">index</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">this</span><span class="o">.</span><span class="na">index</span> <span class="o">=</span> <span class="n">index</span><span class="o">;</span>
+            <span class="k">return</span> <span class="k">this</span><span class="o">;</span>
+        <span class="o">}</span>
+
+        <span class="kd">public</span> <span class="n">Book</span> <span class="nf">setAuthor</span><span class="o">(</span><span class="n">String</span> <span class="n">author</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">this</span><span class="o">.</span><span class="na">author</span> <span class="o">=</span> <span class="n">author</span><span class="o">;</span>
+            <span class="k">return</span> <span class="k">this</span><span class="o">;</span>
+        <span class="o">}</span>
+
+        <span class="kd">public</span> <span class="n">Book</span> <span class="nf">setPrice</span><span class="o">(</span><span class="kt">double</span> <span class="n">price</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">this</span><span class="o">.</span><span class="na">price</span> <span class="o">=</span> <span class="n">price</span><span class="o">;</span>
+            <span class="k">return</span> <span class="k">this</span><span class="o">;</span>
+        <span class="o">}</span>
+
+        <span class="nd">@Override</span>
+        <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="o">()</span> <span class="o">{</span>
+            <span class="k">return</span> <span class="s">&#34;书籍{&#34;</span> <span class="o">+</span>
+                    <span class="s">&#34;索书号=&#34;</span> <span class="o">+</span> <span class="n">index</span> <span class="o">+</span>
+                    <span class="s">&#34;, 书名=&#39;&#34;</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="sc">&#39;\&#39;&#39;</span> <span class="o">+</span>
+                    <span class="s">&#34;, 作者=&#39;&#34;</span> <span class="o">+</span> <span class="n">author</span> <span class="o">+</span> <span class="sc">&#39;\&#39;&#39;</span> <span class="o">+</span>
+                    <span class="s">&#34;, 价格=&#34;</span> <span class="o">+</span> <span class="n">price</span> <span class="o">+</span>
+                    <span class="sc">&#39;}&#39;</span><span class="o">;</span>
+        <span class="o">}</span>
+
+        <span class="nd">@Override</span>
+        <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="o">(</span><span class="n">Object</span> <span class="n">o</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">if</span> <span class="o">(</span><span class="k">this</span> <span class="o">==</span> <span class="n">o</span><span class="o">)</span> <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+            <span class="k">if</span> <span class="o">(</span><span class="n">o</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span> <span class="n">getClass</span><span class="o">()</span> <span class="o">!=</span> <span class="n">o</span><span class="o">.</span><span class="na">getClass</span><span class="o">())</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+            <span class="n">Book</span> <span class="n">book</span> <span class="o">=</span> <span class="o">(</span><span class="n">Book</span><span class="o">)</span> <span class="n">o</span><span class="o">;</span>
+            <span class="k">return</span> <span class="n">index</span> <span class="o">==</span> <span class="n">book</span><span class="o">.</span><span class="na">index</span><span class="o">;</span>
+        <span class="o">}</span>
+
+        <span class="nd">@Override</span>
+        <span class="kd">public</span> <span class="kt">int</span> <span class="nf">hashCode</span><span class="o">()</span> <span class="o">{</span>
+            <span class="k">return</span> <span class="n">Objects</span><span class="o">.</span><span class="na">hash</span><span class="o">(</span><span class="n">index</span><span class="o">);</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+</code></pre></div></div><div class="post-footer" id="post-footer">
     <div class="post-info"><div class="post-info-tag"><span><a href="/tags/java-i/o/">Java I/O</a>
                 </span></div><div class="post-info-line"><div class="post-info-mod">
                 <span>更新于 2022-01-23</span>
