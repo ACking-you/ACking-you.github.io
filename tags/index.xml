@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - 标签 - L_B__</title>
+        <link>https://acking-you.gitee.io/tags/</link>
+        <description>Tags - 标签 - L_B__</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 22 Jan 2022 21:20:41 &#43;0800</lastBuildDate><atom:link href="https://acking-you.gitee.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>C&#43;&#43;类的封装</title>
+    <link>https://acking-you.gitee.io/tags/c&#43;&#43;%E7%B1%BB%E7%9A%84%E5%B0%81%E8%A3%85/</link>
+    <pubDate>Sat, 22 Jan 2022 21:20:41 &#43;0800</pubDate><guid>https://acking-you.gitee.io/tags/c&#43;&#43;%E7%B1%BB%E7%9A%84%E5%B0%81%E8%A3%85/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>socket通信</title>
+    <link>https://acking-you.gitee.io/tags/socket%E9%80%9A%E4%BF%A1/</link>
+    <pubDate>Sat, 22 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/tags/socket%E9%80%9A%E4%BF%A1/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>C&#43;&#43;模板</title>
+    <link>https://acking-you.gitee.io/tags/c&#43;&#43;%E6%A8%A1%E6%9D%BF/</link>
+    <pubDate>Thu, 20 Jan 2022 21:50:08 &#43;0800</pubDate><guid>https://acking-you.gitee.io/tags/c&#43;&#43;%E6%A8%A1%E6%9D%BF/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>

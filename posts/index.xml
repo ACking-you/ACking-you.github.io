@@ -1,0 +1,31 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - L_B__</title>
+        <link>https://acking-you.gitee.io/posts/</link>
+        <description>所有文章 | L_B__</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 22 Jan 2022 21:20:41 &#43;0800</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>大数加减类的实现(C&#43;&#43;实现)✨</title>
+    <link>https://acking-you.gitee.io/posts/%E5%A4%A7%E6%95%B4%E6%95%B0%E5%8A%A0%E5%87%8F/</link>
+    <pubDate>Sat, 22 Jan 2022 21:20:41 &#43;0800</pubDate><guid>https://acking-you.gitee.io/posts/%E5%A4%A7%E6%95%B4%E6%95%B0%E5%8A%A0%E5%87%8F/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/d01d5f8864d540fd9f68582d8f01d017.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAQ19ZQ0JYIFB5X1lZRFM=,size_20,color_FFFFFF,t_70,g_se,x_16" referrerpolicy="no-referrer">
+            </div>为什么需要大数加减类？ 对于计算机而言，基本的数据类型一般最多为64位数据表示范围，这个范围是有限的，没法无限的表示所有的数据，那么有没有一种]]></description>
+</item>
+<item>
+    <title>Socket基本操作的C&#43;&#43;封装</title>
+    <link>https://acking-you.gitee.io/posts/socket%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9Cc&#43;&#43;%E5%B0%81%E8%A3%85/</link>
+    <pubDate>Sat, 22 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/socket%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9Cc&#43;&#43;%E5%B0%81%E8%A3%85/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://s4.ax1x.com/2022/01/22/7hWrhn.png" referrerpolicy="no-referrer">
+            </div>封装过程 接口类的实现(抽象类) _public_socket.h 该头文件用于包含所有该系统平台socket所需要依赖的库。 windows平台 #ifndef MY_TINY_STL__PUBLIC_SOCKET_H #define MY_TINY_STL__PUBLIC_SOCKET_H #include &lt;winsock2.h&gt;#pragma comment (lib, &#34;ws2_32.lib&#34;) //加载 ws2_32.dll #endif //MY_TINY_STL__PUBLIC_SOCKET_H]]></description>
+</item>
+<item>
+    <title>C&#43;&#43;变参模板运用实战——实现PrintLn</title>
+    <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E7%9A%84%E6%A8%A1%E6%9D%BF%E5%86%99println/</link>
+    <pubDate>Thu, 20 Jan 2022 21:50:08 &#43;0800</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E7%9A%84%E6%A8%A1%E6%9D%BF%E5%86%99println/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/bb7ebe55fc2444df854c0db5592faa34.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQysrKysrKysrKysrKysrKysrKys=,size_20,color_FFFFFF,t_70,g_se,x_16" referrerpolicy="no-referrer">
+            </div>想要实现PrintLn，关键在于支持无限个参数的打印函数，所以我大致总结下C++能够如何去实现它！ 方式一：用初始化列表实现PrintLn()]]></description>
+</item>
+</channel>
+</rss>
