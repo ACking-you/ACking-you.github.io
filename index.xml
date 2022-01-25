@@ -3,9 +3,17 @@
         <title>L_B__</title>
         <link>https://acking-you.gitee.io/</link>
         <description>专注记笔记</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 23 Jan 2022 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 25 Jan 2022 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://acking-you.gitee.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>C&#43;&#43;与python文件系统对比</title>
+    <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E4%B8%8Epython%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E5%AF%B9%E6%AF%94/</link>
+    <pubDate>Tue, 25 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E4%B8%8Epython%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E5%AF%B9%E6%AF%94/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://s4.ax1x.com/2022/01/22/7hfGE4.png" referrerpolicy="no-referrer">
+            </div>C++17 和 python 中好用的文件操作 | filesystem | os | shutil C++ 17 python 功能 filesystem::path::is_absolute() os.path.isabs() 判断是否为绝对路径 filesystem::path::parent_path() os.path.dirname() 路径分割 filesystem::path::filename() os.path.basename() 路径分割 filesystem::operator/() os.path.join() 路径拼接 filesystem::current_path() os.getcwd() 获取当前路径 filesystem::directory_iterator os.listdir() 返回指定目录下的所]]></description>
+</item>
+<item>
     <title>Java I/O</title>
     <link>https://acking-you.gitee.io/posts/java-io/</link>
     <pubDate>Sun, 23 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/java-io/</guid>
@@ -76,14 +84,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/d01d5f8864d540fd9f68582d8f01d017.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAQ19ZQ0JYIFB5X1lZRFM=,size_20,color_FFFFFF,t_70,g_se,x_16" referrerpolicy="no-referrer">
             </div>为什么需要大数加减类？ 对于计算机而言，基本的数据类型一般最多为64位数据表示范围，这个范围是有限的，没法无限的表示所有的数据，那么有没有一种]]></description>
-</item>
-<item>
-    <title>矩阵快速幂的C&#43;&#43;封装</title>
-    <link>https://acking-you.gitee.io/posts/%E7%9F%A9%E9%98%B5%E5%BF%AB%E9%80%9F%E5%B9%82%E7%9A%84c&#43;&#43;%E5%B0%81%E8%A3%85/</link>
-    <pubDate>Thu, 20 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E7%9F%A9%E9%98%B5%E5%BF%AB%E9%80%9F%E5%B9%82%E7%9A%84c&#43;&#43;%E5%B0%81%E8%A3%85/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://w.wallhaven.cc/full/o3/wallhaven-o37oj9.jpg" referrerpolicy="no-referrer">
-            </div>实现源码在线查看 如果对于类的设计已经非常清楚，只是进来想看看我的这个泛型模板源代码，那么直接点到下面这个链接进行查看： 源码链接 什么是矩阵快速]]></description>
 </item>
 </channel>
 </rss>
