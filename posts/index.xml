@@ -3,7 +3,15 @@
         <title>所有文章 - L_B__</title>
         <link>https://acking-you.gitee.io/posts/</link>
         <description>所有文章 | L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 26 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 27 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>leetcode每日一题-检测正方形</title>
+    <link>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-%E6%A3%80%E6%B5%8B%E6%AD%A3%E6%96%B9%E5%BD%A2/</link>
+    <pubDate>Thu, 27 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-%E6%A3%80%E6%B5%8B%E6%AD%A3%E6%96%B9%E5%BD%A2/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://s4.ax1x.com/2022/01/22/7hfFu8.png" referrerpolicy="no-referrer">
+            </div>题目 题目链接 题目解析 注意此题为计算几何类型的题目，我认为这类问题最重要的就是把这个几何图形用好用的方法去表示出来。 三个重点： 点的表示：我们通]]></description>
+</item>
+<item>
     <title>Java网络编程</title>
     <link>https://acking-you.gitee.io/posts/java%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</link>
     <pubDate>Wed, 26 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/java%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</guid>
@@ -74,14 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://w.wallhaven.cc/full/g7/wallhaven-g7vwve.jpg" referrerpolicy="no-referrer">
             </div>Java泛型与集合类 配套视频 在前面我们学习了最重要的类和对象，了解了面向对象编程的思想，注意，非常重要，面向对象是必须要深入理解和掌握的内容]]></description>
-</item>
-<item>
-    <title>C&#43;&#43;变参模板运用实战——实现PrintLn</title>
-    <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E7%9A%84%E6%A8%A1%E6%9D%BF%E5%86%99println/</link>
-    <pubDate>Thu, 20 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E7%9A%84%E6%A8%A1%E6%9D%BF%E5%86%99println/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/bb7ebe55fc2444df854c0db5592faa34.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQysrKysrKysrKysrKysrKysrKys=,size_20,color_FFFFFF,t_70,g_se,x_16" referrerpolicy="no-referrer">
-            </div>想要实现PrintLn，关键在于支持无限个参数的打印函数，所以我大致总结下C++能够如何去实现它！ 方式一：用初始化列表实现PrintLn()]]></description>
 </item>
 </channel>
 </rss>
