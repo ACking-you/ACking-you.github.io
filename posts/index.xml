@@ -3,7 +3,15 @@
         <title>所有文章 - L_B__</title>
         <link>https://acking-you.gitee.io/posts/</link>
         <description>所有文章 | L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 03 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 04 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>C&#43;&#43;右值语义的基石——完美转发</title>
+    <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E5%8F%B3%E5%80%BC%E8%AF%AD%E4%B9%89%E7%9A%84%E5%9F%BA%E7%9F%B3%E5%AE%8C%E7%BE%8E%E8%BD%AC%E5%8F%91/</link>
+    <pubDate>Fri, 04 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E5%8F%B3%E5%80%BC%E8%AF%AD%E4%B9%89%E7%9A%84%E5%9F%BA%E7%9F%B3%E5%AE%8C%E7%BE%8E%E8%BD%AC%E5%8F%91/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://s4.ax1x.com/2022/01/26/7L5VsS.png" referrerpolicy="no-referrer">
+            </div>什么是完美转发？ 熟悉现代C++语法的都应该清楚，C++把变量分为左值和右值，为了实现对资源的转移而不是拷贝，右值和对应的移动构造函数应运而生]]></description>
+</item>
+<item>
     <title>leetcode每日一题——和为K的最少斐波那契数字数目</title>
     <link>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E5%92%8C%E4%B8%BAk%E7%9A%84%E6%9C%80%E5%B0%91%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%AD%97%E6%95%B0%E7%9B%AE/</link>
     <pubDate>Thu, 03 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E5%92%8C%E4%B8%BAk%E7%9A%84%E6%9C%80%E5%B0%91%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%AD%97%E6%95%B0%E7%9B%AE/</guid>
@@ -74,14 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://s4.ax1x.com/2022/01/22/7hfGE4.png" referrerpolicy="no-referrer">
             </div>C++17 和 python 中好用的文件操作 | filesystem | os | shutil C++ 17 python 功能 filesystem::path::is_absolute() os.path.isabs() 判断是否为绝对路径 filesystem::path::parent_path() os.path.dirname() 路径分割 filesystem::path::filename() os.path.basename() 路径分割 filesystem::operator/() os.path.join() 路径拼接 filesystem::current_path() os.getcwd() 获取当前路径 filesystem::directory_iterator os.listdir() 返回指定目录下的所]]></description>
-</item>
-<item>
-    <title>Java I/O</title>
-    <link>https://acking-you.gitee.io/posts/java-io/</link>
-    <pubDate>Sun, 23 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/java-io/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://s4.ax1x.com/2022/01/22/7hWrhn.png" referrerpolicy="no-referrer">
-            </div>Java I/O 配套视频 注意：这块会涉及到操作系统和计算机组成原理相关内容。 I/O简而言之，就是输入输出，那么为什么会有I/O呢？其实I/O无时无刻都在]]></description>
 </item>
 </channel>
 </rss>
