@@ -3,7 +3,15 @@
         <title>C&#43;&#43;实战 - 分类 - L_B__</title>
         <link>https://acking-you.gitee.io/categories/c&#43;&#43;%E5%AE%9E%E6%88%98/</link>
         <description>C&#43;&#43;实战 - 分类 - L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 20 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/c&#43;&#43;%E5%AE%9E%E6%88%98/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 05 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/c&#43;&#43;%E5%AE%9E%E6%88%98/" rel="self" type="application/rss+xml" /><item>
+    <title>C&#43;&#43;图形化实现学生管理系统</title>
+    <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E5%9B%BE%E5%BD%A2%E5%8C%96%E5%AE%9E%E7%8E%B0%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</link>
+    <pubDate>Sat, 05 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E5%9B%BE%E5%BD%A2%E5%8C%96%E5%AE%9E%E7%8E%B0%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://s4.ax1x.com/2022/01/22/7hfGE4.png" referrerpolicy="no-referrer">
+            </div>Qt学生管理系统 想查看源码或者直接下载软件安装包可以到下面的链接： 软件安装包大概在这个位置 GitHub地址：链接 Gitee地址(方便国内访问]]></description>
+</item>
+<item>
     <title>C&#43;&#43;变参模板运用实战——实现PrintLn</title>
     <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E7%9A%84%E6%A8%A1%E6%9D%BF%E5%86%99println/</link>
     <pubDate>Thu, 20 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E7%9A%84%E6%A8%A1%E6%9D%BF%E5%86%99println/</guid>
