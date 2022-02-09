@@ -3,7 +3,15 @@
         <title>JavaWeb笔记 - 分类 - L_B__</title>
         <link>https://acking-you.gitee.io/categories/javaweb%E7%AC%94%E8%AE%B0/</link>
         <description>JavaWeb笔记 - 分类 - L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 26 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/javaweb%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/javaweb%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+    <title>数据库基础</title>
+    <link>https://acking-you.gitee.io/posts/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/</link>
+    <pubDate>Wed, 09 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://s4.ax1x.com/2022/01/22/7hhmZD.png" referrerpolicy="no-referrer">
+            </div>数据库基础 数据库是学习JavaWeb的一个前置，只有了解了数据库的操作和使用，我们才能更好地组织和管理网站应用产生的数据。 什么是数据库 数据库]]></description>
+</item>
+<item>
     <title>Java网络编程</title>
     <link>https://acking-you.gitee.io/posts/java%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</link>
     <pubDate>Wed, 26 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/java%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</guid>

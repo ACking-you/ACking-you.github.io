@@ -3,7 +3,15 @@
         <title>所有文章 - L_B__</title>
         <link>https://acking-you.gitee.io/posts/</link>
         <description>所有文章 | L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 07 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>数据库基础</title>
+    <link>https://acking-you.gitee.io/posts/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/</link>
+    <pubDate>Wed, 09 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://s4.ax1x.com/2022/01/22/7hhmZD.png" referrerpolicy="no-referrer">
+            </div>数据库基础 数据库是学习JavaWeb的一个前置，只有了解了数据库的操作和使用，我们才能更好地组织和管理网站应用产生的数据。 什么是数据库 数据库]]></description>
+</item>
+<item>
     <title>BellmanFord和SPFA算法详解</title>
     <link>https://acking-you.gitee.io/posts/bellmanford%E5%92%8Cspfa%E7%AE%97%E6%B3%95%E8%AF%A6%E8%A7%A3/</link>
     <pubDate>Mon, 07 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/bellmanford%E5%92%8Cspfa%E7%AE%97%E6%B3%95%E8%AF%A6%E8%A7%A3/</guid>
@@ -74,14 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://s4.ax1x.com/2022/01/26/7L4VE9.png" referrerpolicy="no-referrer">
             </div>题目 题目链接 解题思路 一句话解决：以第一个字段为标准从大到小排序，然后再遍历数组，对比第二字段的最大值即可。 关键细节： 为了避免第一个字段相同的]]></description>
-</item>
-<item>
-    <title>leetcode每日一题-检测正方形</title>
-    <link>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-%E6%A3%80%E6%B5%8B%E6%AD%A3%E6%96%B9%E5%BD%A2/</link>
-    <pubDate>Thu, 27 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-%E6%A3%80%E6%B5%8B%E6%AD%A3%E6%96%B9%E5%BD%A2/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://s4.ax1x.com/2022/01/22/7hfFu8.png" referrerpolicy="no-referrer">
-            </div>题目 题目链接 题目解析 注意此题为计算几何类型的题目，我认为这类问题最重要的就是把这个几何图形用好用的方法去表示出来。 三个重点： 点的表示：我们通]]></description>
 </item>
 </channel>
 </rss>
