@@ -14,6 +14,14 @@
             </div>软件使用 视频教程 项目介绍 项目所在地 温馨提示：如果本地还未搭建 hugo 博客，可以使用我的另一个 hugo 博客自动搭建工具 QtRun： 介绍：一个用纯 C++ 写的命令]]></description>
 </item>
 <item>
+    <title>并查集/dfs解决——leetcode每日一题——1020飞地的数量</title>
+    <link>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%981020%E9%A3%9E%E5%9C%B0%E7%9A%84%E6%95%B0%E9%87%8F/</link>
+    <pubDate>Sat, 12 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%981020%E9%A3%9E%E5%9C%B0%E7%9A%84%E6%95%B0%E9%87%8F/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://s4.ax1x.com/2022/01/26/7L5VsS.png" referrerpolicy="no-referrer">
+            </div>题目描述 题目链接 题目解析 一、以边界值为对象进行搜索解决 一开始很快就想到用比较暴力的直接dfs深搜，然后就超时了。 注意此题由于以 1 是否能延申到]]></description>
+</item>
+<item>
     <title>自动化搭建博客工具</title>
     <link>https://acking-you.gitee.io/posts/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B7%A5%E5%85%B7/</link>
     <pubDate>Sat, 12 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B7%A5%E5%85%B7/</guid>
@@ -76,14 +84,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://s4.ax1x.com/2022/01/26/7LhT9P.png" referrerpolicy="no-referrer">
             </div>题目一：至少有 K 个重复字符的最长子串 395. 至少有 K 个重复字符的最长子串 题目解析 有两种方法： 递归分治解决：该分治法的应用对象：解决那种不会去跨越任]]></description>
-</item>
-<item>
-    <title>划分数问题</title>
-    <link>https://acking-you.gitee.io/posts/%E5%88%92%E5%88%86%E6%95%B0%E9%97%AE%E9%A2%98/</link>
-    <pubDate>Sun, 30 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E5%88%92%E5%88%86%E6%95%B0%E9%97%AE%E9%A2%98/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://s4.ax1x.com/2022/01/26/7Lh4AA.png" referrerpolicy="no-referrer">
-            </div>题目 题目链接 题目详解 划分数类型题目都是dp解决，而且都有固定的套路和公式，但我们还是需要在前人的公式上加以理解！ 划分数问题dp总结 我这里就提]]></description>
 </item>
 </channel>
 </rss>
