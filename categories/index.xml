@@ -3,7 +3,13 @@
         <title>Categories - 分类 - L_B__</title>
         <link>https://acking-you.gitee.io/categories/</link>
         <description>Categories - 分类 - L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 12 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>C&#43;&#43;实战</title>
+    <link>https://acking-you.gitee.io/categories/c&#43;&#43;%E5%AE%9E%E6%88%98/</link>
+    <pubDate>Sat, 12 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/categories/c&#43;&#43;%E5%AE%9E%E6%88%98/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>JavaWeb笔记</title>
     <link>https://acking-you.gitee.io/categories/javaweb%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Wed, 09 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/categories/javaweb%E7%AC%94%E8%AE%B0/</guid>
@@ -13,12 +19,6 @@
     <title>算法——最短路问题</title>
     <link>https://acking-you.gitee.io/categories/%E7%AE%97%E6%B3%95%E6%9C%80%E7%9F%AD%E8%B7%AF%E9%97%AE%E9%A2%98/</link>
     <pubDate>Mon, 07 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/categories/%E7%AE%97%E6%B3%95%E6%9C%80%E7%9F%AD%E8%B7%AF%E9%97%AE%E9%A2%98/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>C&#43;&#43;实战</title>
-    <link>https://acking-you.gitee.io/categories/c&#43;&#43;%E5%AE%9E%E6%88%98/</link>
-    <pubDate>Sat, 05 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/categories/c&#43;&#43;%E5%AE%9E%E6%88%98/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>

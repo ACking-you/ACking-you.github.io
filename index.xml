@@ -3,9 +3,25 @@
         <title>L_B__</title>
         <link>https://acking-you.gitee.io/</link>
         <description>专注记笔记</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Feb 2022 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 12 Feb 2022 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://acking-you.gitee.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Hugo博客图形化写作工具</title>
+    <link>https://acking-you.gitee.io/posts/hugo%E5%8D%9A%E5%AE%A2%E5%9B%BE%E5%BD%A2%E5%8C%96%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/</link>
+    <pubDate>Sat, 12 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/hugo%E5%8D%9A%E5%AE%A2%E5%9B%BE%E5%BD%A2%E5%8C%96%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://s4.ax1x.com/2022/01/26/7Lh4AA.png" referrerpolicy="no-referrer">
+            </div>软件使用 视频教程 项目介绍 项目所在地 温馨提示：如果本地还未搭建 hugo 博客，可以使用我的另一个 hugo 博客自动搭建工具 QtRun： 介绍：一个用纯 C++ 写的命令]]></description>
+</item>
+<item>
+    <title>自动化搭建博客工具</title>
+    <link>https://acking-you.gitee.io/posts/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B7%A5%E5%85%B7/</link>
+    <pubDate>Sat, 12 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B7%A5%E5%85%B7/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://w.wallhaven.cc/full/j3/wallhaven-j3l2gw.jpg" referrerpolicy="no-referrer">
+            </div>软件使用 使用前请下载好git工具 视频教程 项目介绍 项目所在地 温馨提示：本地搭建完网站框架后，每次新建文章的写作体验较差，可以看看我的另一个 hugo 博]]></description>
+</item>
+<item>
     <title>数据库基础</title>
     <link>https://acking-you.gitee.io/posts/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/</link>
     <pubDate>Wed, 09 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/</guid>
@@ -68,22 +84,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://s4.ax1x.com/2022/01/26/7Lh4AA.png" referrerpolicy="no-referrer">
             </div>题目 题目链接 题目详解 划分数类型题目都是dp解决，而且都有固定的套路和公式，但我们还是需要在前人的公式上加以理解！ 划分数问题dp总结 我这里就提]]></description>
-</item>
-<item>
-    <title>leetcode每日一题——地图中的最高点</title>
-    <link>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E5%9C%B0%E5%9B%BE%E4%B8%AD%E7%9A%84%E6%9C%80%E9%AB%98%E7%82%B9/</link>
-    <pubDate>Sat, 29 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E5%9C%B0%E5%9B%BE%E4%B8%AD%E7%9A%84%E6%9C%80%E9%AB%98%E7%82%B9/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://s4.ax1x.com/2022/01/22/7hfGE4.png" referrerpolicy="no-referrer">
-            </div>题目 题目链接 解题思路 两种解题思路，都是根据题目的意思更新路径信息即可： bfs思路：由于相邻的两个格子必须高度差为1，而水域必须高度为0，所以]]></description>
-</item>
-<item>
-    <title>leetcode每日一题-游戏中弱角色的数量</title>
-    <link>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-%E6%B8%B8%E6%88%8F%E4%B8%AD%E5%BC%B1%E8%A7%92%E8%89%B2%E7%9A%84%E6%95%B0%E9%87%8F/</link>
-    <pubDate>Fri, 28 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-%E6%B8%B8%E6%88%8F%E4%B8%AD%E5%BC%B1%E8%A7%92%E8%89%B2%E7%9A%84%E6%95%B0%E9%87%8F/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://s4.ax1x.com/2022/01/26/7L4VE9.png" referrerpolicy="no-referrer">
-            </div>题目 题目链接 解题思路 一句话解决：以第一个字段为标准从大到小排序，然后再遍历数组，对比第二字段的最大值即可。 关键细节： 为了避免第一个字段相同的]]></description>
 </item>
 </channel>
 </rss>
