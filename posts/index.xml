@@ -3,7 +3,15 @@
         <title>所有文章 - L_B__</title>
         <link>https://acking-you.gitee.io/posts/</link>
         <description>所有文章 | L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 16 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 18 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>骑士在棋盘上的概率——dp棋盘概率题</title>
+    <link>https://acking-you.gitee.io/posts/%E9%AA%91%E5%A3%AB%E5%9C%A8%E6%A3%8B%E7%9B%98%E4%B8%8A%E7%9A%84%E6%A6%82%E7%8E%87dp%E6%A3%8B%E7%9B%98%E6%A6%82%E7%8E%87%E9%A2%98/</link>
+    <pubDate>Fri, 18 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E9%AA%91%E5%A3%AB%E5%9C%A8%E6%A3%8B%E7%9B%98%E4%B8%8A%E7%9A%84%E6%A6%82%E7%8E%87dp%E6%A3%8B%E7%9B%98%E6%A6%82%E7%8E%87%E9%A2%98/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://w.wallhaven.cc/full/o3/wallhaven-o37oj9.jpg" referrerpolicy="no-referrer">
+            </div>题目 题目链接 题目详解 一个骑士有 $8$ 种可能的走法，骑士会从中以等概率随机选择一种。部分走法可能会让骑士离开棋盘，另外的走法则会让骑士移动到棋盘的]]></description>
+</item>
+<item>
     <title>C/C&#43;&#43;手撕哈希表详解</title>
     <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E6%89%8B%E6%92%95%E5%93%88%E5%B8%8C%E8%A1%A8%E8%AF%A6%E8%A7%A3/</link>
     <pubDate>Wed, 16 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E6%89%8B%E6%92%95%E5%93%88%E5%B8%8C%E8%A1%A8%E8%AF%A6%E8%A7%A3/</guid>
@@ -74,14 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://s4.ax1x.com/2022/01/26/7L5VsS.png" referrerpolicy="no-referrer">
             </div>题目描述 题目链接 题目解析 一、以边界值为对象进行搜索解决 一开始很快就想到用比较暴力的直接dfs深搜，然后就超时了。 注意此题由于以 1 是否能延申到]]></description>
-</item>
-<item>
-    <title>自动化搭建博客工具</title>
-    <link>https://acking-you.gitee.io/posts/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B7%A5%E5%85%B7/</link>
-    <pubDate>Sat, 12 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B7%A5%E5%85%B7/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://w.wallhaven.cc/full/j3/wallhaven-j3l2gw.jpg" referrerpolicy="no-referrer">
-            </div>软件使用 使用前请下载好git工具 视频教程 项目介绍 项目所在地 温馨提示：本地搭建完网站框架后，每次新建文章的写作体验较差，可以看看我的另一个 hugo 博]]></description>
 </item>
 </channel>
 </rss>
