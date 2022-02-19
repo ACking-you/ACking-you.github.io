@@ -3,9 +3,49 @@
         <title>L_B__</title>
         <link>https://acking-you.gitee.io/</link>
         <description>专注记笔记</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 18 Feb 2022 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 19 Feb 2022 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://acking-you.gitee.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>PAT甲级--Insertion-or-Heap-Sort</title>
+    <link>https://acking-you.gitee.io/posts/pat%E7%94%B2%E7%BA%A7-insertion-or-heap-sort/</link>
+    <pubDate>Sat, 19 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/pat%E7%94%B2%E7%BA%A7-insertion-or-heap-sort/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/d42c44f8494c4416af716bc7156a4c96.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAQ19ZQ0JYIFB5X1lZRFM=,size_20,color_FFFFFF,t_70,g_se,x_16" referrerpolicy="no-referrer">
+            </div>题目 OJ平台 题目大意 有很多题目实际不需要看懂题目，只需要看懂输入和输出，比如这题。 此题虽然题目较为学术，且比较长，实际总结下来就是，通过给你]]></description>
+</item>
+<item>
+    <title>堆的运用——有序元素的多路归并topk问题</title>
+    <link>https://acking-you.gitee.io/posts/%E5%A0%86%E7%9A%84%E8%BF%90%E7%94%A8%E6%9C%89%E5%BA%8F%E5%85%83%E7%B4%A0%E7%9A%84%E5%A4%9A%E8%B7%AF%E5%BD%92%E5%B9%B6topk%E9%97%AE%E9%A2%98/</link>
+    <pubDate>Sat, 19 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E5%A0%86%E7%9A%84%E8%BF%90%E7%94%A8%E6%9C%89%E5%BA%8F%E5%85%83%E7%B4%A0%E7%9A%84%E5%A4%9A%E8%B7%AF%E5%BD%92%E5%B9%B6topk%E9%97%AE%E9%A2%98/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/e706274b97f65b3aac9471d1da024918.png#pic_center" referrerpolicy="no-referrer">
+            </div>题目一：有序矩阵第k小的元素(提炼出做题方法) 题目链接 解题技法 感觉这张图基本就清楚了这题目如何解。 具体详解过程请看lc大神：题目详解 解题代码]]></description>
+</item>
+<item>
+    <title>归并的运用——计算逆序数</title>
+    <link>https://acking-you.gitee.io/posts/%E5%BD%92%E5%B9%B6%E7%9A%84%E8%BF%90%E7%94%A8%E8%AE%A1%E7%AE%97%E9%80%86%E5%BA%8F%E5%AF%B9/</link>
+    <pubDate>Sat, 19 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E5%BD%92%E5%B9%B6%E7%9A%84%E8%BF%90%E7%94%A8%E8%AE%A1%E7%AE%97%E9%80%86%E5%BA%8F%E5%AF%B9/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/4192402992cc4f7294516943d696b1a4.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAQ19ZQ0JYIFB5X1lZRFM=,size_20,color_FFFFFF,t_70,g_se,x_16" referrerpolicy="no-referrer">
+            </div>题目 题目链接 题目解析 很明显此题的问题规模来到了 1e5 的级别，显然不是 O(n^2) 的暴力方式能够解决的。 具体的详细解析，这里有力扣大神在：题目解析 我这里把最]]></description>
+</item>
+<item>
+    <title>煎饼排序——选择排序的运用</title>
+    <link>https://acking-you.gitee.io/posts/%E7%85%8E%E9%A5%BC%E6%8E%92%E5%BA%8F%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E7%9A%84%E8%BF%90%E7%94%A8/</link>
+    <pubDate>Sat, 19 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E7%85%8E%E9%A5%BC%E6%8E%92%E5%BA%8F%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E7%9A%84%E8%BF%90%E7%94%A8/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://s4.ax1x.com/2022/01/26/7L4VE9.png" referrerpolicy="no-referrer">
+            </div>题目 题目链接 解题思路 读懂题目： 此题并不是要我们求出类似于示例所给的最优情况的方式得出答案。 他只要能够翻转成有序的操作序列即可。 故我们可以按照]]></description>
+</item>
+<item>
+    <title>高频面试考点(考察分治思想)：合并k个排序链表</title>
+    <link>https://acking-you.gitee.io/posts/%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E8%80%83%E7%82%B9%E8%80%83%E5%AF%9F%E5%88%86%E6%B2%BB%E6%80%9D%E6%83%B3%E5%90%88%E5%B9%B6k%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8/</link>
+    <pubDate>Sat, 19 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E8%80%83%E7%82%B9%E8%80%83%E5%AF%9F%E5%88%86%E6%B2%BB%E6%80%9D%E6%83%B3%E5%90%88%E5%B9%B6k%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://s4.ax1x.com/2022/02/11/HNLegK.png" referrerpolicy="no-referrer">
+            </div>题目 题目解析 很明显，这种多个有序链表的排序可以分解为，两个过程： 合并两个有序链表的函数。 实现多次调用合并两个有序链表。 关于分治法如何优化该过]]></description>
+</item>
+<item>
     <title>骑士在棋盘上的概率——dp棋盘概率题</title>
     <link>https://acking-you.gitee.io/posts/%E9%AA%91%E5%A3%AB%E5%9C%A8%E6%A3%8B%E7%9B%98%E4%B8%8A%E7%9A%84%E6%A6%82%E7%8E%87dp%E6%A3%8B%E7%9B%98%E6%A6%82%E7%8E%87%E9%A2%98/</link>
     <pubDate>Fri, 18 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E9%AA%91%E5%A3%AB%E5%9C%A8%E6%A3%8B%E7%9B%98%E4%B8%8A%E7%9A%84%E6%A6%82%E7%8E%87dp%E6%A3%8B%E7%9B%98%E6%A6%82%E7%8E%87%E9%A2%98/</guid>
@@ -44,46 +84,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/926beb3cfeb04153a3c69c11c604e8e9.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAQ19ZQ0JYIFB5X1lZRFM=,size_20,color_FFFFFF,t_70,g_se,x_16" referrerpolicy="no-referrer">
             </div>关于为什么突然想写一个模板类？ 嗯。。主要是因为最近在翻看《STL源码剖析》，然后发现原来STL源码是如此的庞大且复杂，而又及其具有条理，而其]]></description>
-</item>
-<item>
-    <title>来自上帝的骰子---Treap(树堆)详解</title>
-    <link>https://acking-you.gitee.io/posts/%E6%9D%A5%E8%87%AA%E4%B8%8A%E5%B8%9D%E7%9A%84%E9%AA%B0%E5%AD%90-treap%E6%A0%91%E5%A0%86%E8%AF%A6%E8%A7%A3/</link>
-    <pubDate>Wed, 16 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E6%9D%A5%E8%87%AA%E4%B8%8A%E5%B8%9D%E7%9A%84%E9%AA%B0%E5%AD%90-treap%E6%A0%91%E5%A0%86%E8%AF%A6%E8%A7%A3/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://s4.ax1x.com/2022/01/26/7L4luD.png" referrerpolicy="no-referrer">
-            </div>为什么说是上帝的骰子？ 解释这个问题，首先由这个数据结构的名字开始，Treap = Tree + Heap，即为树堆之意，然而实际上用到堆的地方就是利用了一]]></description>
-</item>
-<item>
-    <title>leetcode情人节特辑——寻找单身狗</title>
-    <link>https://acking-you.gitee.io/posts/leetcode%E6%83%85%E4%BA%BA%E8%8A%82%E7%89%B9%E8%BE%91%E5%AF%BB%E6%89%BE%E5%8D%95%E8%BA%AB%E7%8B%97/</link>
-    <pubDate>Mon, 14 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/leetcode%E6%83%85%E4%BA%BA%E8%8A%82%E7%89%B9%E8%BE%91%E5%AF%BB%E6%89%BE%E5%8D%95%E8%BA%AB%E7%8B%97/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://s4.ax1x.com/2022/01/22/7hWvAH.png" referrerpolicy="no-referrer">
-            </div>题目 题目链接 题目详解 这题本应是简单题，就是简单的异或规律，但是题目要求使用 O(logn) 时间复杂度， O(1) 空间复杂度，而如果直接异或，只会是 O(n) 的时间复杂度。]]></description>
-</item>
-<item>
-    <title>牛客-wyh的物品——通过验证得出二分的搜索区间</title>
-    <link>https://acking-you.gitee.io/posts/%E7%89%9B%E5%AE%A2-wyh%E7%9A%84%E7%89%A9%E5%93%81%E9%80%9A%E8%BF%87%E9%AA%8C%E8%AF%81%E5%BE%97%E5%87%BA%E4%BA%8C%E5%88%86%E7%9A%84%E6%90%9C%E7%B4%A2%E5%8C%BA%E9%97%B4/</link>
-    <pubDate>Mon, 14 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E7%89%9B%E5%AE%A2-wyh%E7%9A%84%E7%89%A9%E5%93%81%E9%80%9A%E8%BF%87%E9%AA%8C%E8%AF%81%E5%BE%97%E5%87%BA%E4%BA%8C%E5%88%86%E7%9A%84%E6%90%9C%E7%B4%A2%E5%8C%BA%E9%97%B4/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://s4.ax1x.com/2022/01/26/7L4luD.png" referrerpolicy="no-referrer">
-            </div>题目 题目链接 题目详解 以下为手写详解 下面总结这个做题步骤： 二分搜索可能的最大单位价值。 根据这个值得到每个数的单位价值情况s，根据s的值排序，得]]></description>
-</item>
-<item>
-    <title>Hugo博客图形化写作工具</title>
-    <link>https://acking-you.gitee.io/posts/hugo%E5%8D%9A%E5%AE%A2%E5%9B%BE%E5%BD%A2%E5%8C%96%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/</link>
-    <pubDate>Sat, 12 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/hugo%E5%8D%9A%E5%AE%A2%E5%9B%BE%E5%BD%A2%E5%8C%96%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://s4.ax1x.com/2022/01/26/7Lh4AA.png" referrerpolicy="no-referrer">
-            </div>软件使用 视频教程 项目介绍 项目所在地 温馨提示：如果本地还未搭建 hugo 博客，可以使用我的另一个 hugo 博客自动搭建工具 QtRun： 介绍：一个用纯 C++ 写的命令]]></description>
-</item>
-<item>
-    <title>并查集/dfs解决——leetcode每日一题——1020飞地的数量</title>
-    <link>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%981020%E9%A3%9E%E5%9C%B0%E7%9A%84%E6%95%B0%E9%87%8F/</link>
-    <pubDate>Sat, 12 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%981020%E9%A3%9E%E5%9C%B0%E7%9A%84%E6%95%B0%E9%87%8F/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://s4.ax1x.com/2022/01/26/7L5VsS.png" referrerpolicy="no-referrer">
-            </div>题目描述 题目链接 题目解析 一、以边界值为对象进行搜索解决 一开始很快就想到用比较暴力的直接dfs深搜，然后就超时了。 注意此题由于以 1 是否能延申到]]></description>
 </item>
 </channel>
 </rss>
