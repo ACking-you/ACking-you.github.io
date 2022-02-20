@@ -3,7 +3,13 @@
         <title>Tags - 标签 - L_B__</title>
         <link>https://acking-you.gitee.io/tags/</link>
         <description>Tags - 标签 - L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 19 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 20 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>1bit与2bit字符——简单模拟题</title>
+    <link>https://acking-you.gitee.io/tags/1bit%E4%B8%8E2bit%E5%AD%97%E7%AC%A6%E7%AE%80%E5%8D%95%E6%A8%A1%E6%8B%9F%E9%A2%98/</link>
+    <pubDate>Sun, 20 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/tags/1bit%E4%B8%8E2bit%E5%AD%97%E7%AC%A6%E7%AE%80%E5%8D%95%E6%A8%A1%E6%8B%9F%E9%A2%98/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>PAT甲级--Insertion-or-Heap-Sort</title>
     <link>https://acking-you.gitee.io/tags/pat%E7%94%B2%E7%BA%A7-insertion-or-heap-sort/</link>
     <pubDate>Sat, 19 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/tags/pat%E7%94%B2%E7%BA%A7-insertion-or-heap-sort/</guid>
@@ -55,12 +61,6 @@
     <title>新手用C&#43;&#43;写了个泛型堆，效率竟比STL的更快？</title>
     <link>https://acking-you.gitee.io/tags/%E6%96%B0%E6%89%8B%E7%94%A8c&#43;&#43;%E5%86%99%E4%BA%86%E4%B8%AA%E6%B3%9B%E5%9E%8B%E5%A0%86%E6%95%88%E7%8E%87%E7%AB%9F%E6%AF%94stl%E7%9A%84%E6%9B%B4%E5%BF%AB/</link>
     <pubDate>Wed, 16 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/tags/%E6%96%B0%E6%89%8B%E7%94%A8c&#43;&#43;%E5%86%99%E4%BA%86%E4%B8%AA%E6%B3%9B%E5%9E%8B%E5%A0%86%E6%95%88%E7%8E%87%E7%AB%9F%E6%AF%94stl%E7%9A%84%E6%9B%B4%E5%BF%AB/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>来自上帝的骰子---Treap(树堆)详解</title>
-    <link>https://acking-you.gitee.io/tags/%E6%9D%A5%E8%87%AA%E4%B8%8A%E5%B8%9D%E7%9A%84%E9%AA%B0%E5%AD%90-treap%E6%A0%91%E5%A0%86%E8%AF%A6%E8%A7%A3/</link>
-    <pubDate>Wed, 16 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/tags/%E6%9D%A5%E8%87%AA%E4%B8%8A%E5%B8%9D%E7%9A%84%E9%AA%B0%E5%AD%90-treap%E6%A0%91%E5%A0%86%E8%AF%A6%E8%A7%A3/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
