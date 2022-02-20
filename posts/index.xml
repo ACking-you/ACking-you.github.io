@@ -12,6 +12,14 @@
             </div>题目 题目链接 题目详解 读懂题： 此题是为了让最后以一个字符解码，也就是 $0$ ，而含 $1$ 的只能是两个字符进行解码，所以遇到 $1$ 就必须确保后面有 $0$ 或 $1$ 来用于]]></description>
 </item>
 <item>
+    <title>Java动态代理详解</title>
+    <link>https://acking-you.gitee.io/posts/java%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86%E8%AF%A6%E8%A7%A3/</link>
+    <pubDate>Sun, 20 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/java%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86%E8%AF%A6%E8%A7%A3/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/acea126d07748d6630f37b1b481e5d73.png#pic_center" referrerpolicy="no-referrer">
+            </div>在介绍动态代理之前，必须先来聊聊静态代理。 静态代理介绍 假设现在项目经理有一个需求：在项目现有所有类的方法前后打印日志。 你如何在不修改已有代码]]></description>
+</item>
+<item>
     <title>PAT甲级--Insertion-or-Heap-Sort</title>
     <link>https://acking-you.gitee.io/posts/pat%E7%94%B2%E7%BA%A7-insertion-or-heap-sort/</link>
     <pubDate>Sat, 19 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/pat%E7%94%B2%E7%BA%A7-insertion-or-heap-sort/</guid>
@@ -74,14 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://s4.ax1x.com/2022/01/26/7L4VE9.png" referrerpolicy="no-referrer">
             </div>Java与数据库 通过Java如何去使用数据库来帮助我们存储数据呢，这将是本章节讨论的重点。 初识JDBC JDBC是什么？JDBC英文名为：Ja]]></description>
-</item>
-<item>
-    <title>徒手写的AVL竟然比STL中的红黑树效率更高？✨</title>
-    <link>https://acking-you.gitee.io/posts/%E5%BE%92%E6%89%8B%E5%86%99%E7%9A%84avl%E7%AB%9F%E7%84%B6%E6%AF%94stl%E4%B8%AD%E7%9A%84%E7%BA%A2%E9%BB%91%E6%A0%91%E6%95%88%E7%8E%87%E6%9B%B4%E9%AB%98/</link>
-    <pubDate>Wed, 16 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E5%BE%92%E6%89%8B%E5%86%99%E7%9A%84avl%E7%AB%9F%E7%84%B6%E6%AF%94stl%E4%B8%AD%E7%9A%84%E7%BA%A2%E9%BB%91%E6%A0%91%E6%95%88%E7%8E%87%E6%9B%B4%E9%AB%98/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/8db816efd6abe83538c4d47108d9c840.png#pic_center" referrerpolicy="no-referrer">
-            </div>AVL树简介 AVL树的名字来源于它的发明作者G.M. Adelson-Velsky 和 E.M. Landis。AVL树是最先发明的自平衡二叉查找树（Self-Balancing Binary]]></description>
 </item>
 </channel>
 </rss>
