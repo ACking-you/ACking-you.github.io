@@ -3,7 +3,15 @@
         <title>Linux网络编程 - 分类 - L_B__</title>
         <link>https://acking-you.gitee.io/categories/linux%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</link>
         <description>Linux网络编程 - 分类 - L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 26 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/linux%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 21 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/linux%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
+    <title>TCP协议详解</title>
+    <link>https://acking-you.gitee.io/posts/tcp%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3/</link>
+    <pubDate>Mon, 21 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/tcp%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/2729ae8b8d3a403affb81167fb3b1604.png#pic_center" referrerpolicy="no-referrer">
+            </div>本文章为《Linux高性能服务器编程》第四章的笔记，该书描述该章的各种内容的时候，几乎都使用了实践的工具来抓包验证并解释的方式来铺开知识点。]]></description>
+</item>
+<item>
     <title>TCP网络编程中connect、listen、accept三者之间的关系</title>
     <link>https://acking-you.gitee.io/posts/tcp%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E4%B8%ADconnectlistenaccept%E4%B8%89%E8%80%85%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
     <pubDate>Wed, 26 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/tcp%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E4%B8%ADconnectlistenaccept%E4%B8%89%E8%80%85%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>

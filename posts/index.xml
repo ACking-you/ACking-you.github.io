@@ -3,7 +3,15 @@
         <title>所有文章 - L_B__</title>
         <link>https://acking-you.gitee.io/posts/</link>
         <description>所有文章 | L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 20 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 21 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>TCP协议详解</title>
+    <link>https://acking-you.gitee.io/posts/tcp%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3/</link>
+    <pubDate>Mon, 21 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/tcp%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/2729ae8b8d3a403affb81167fb3b1604.png#pic_center" referrerpolicy="no-referrer">
+            </div>本文章为《Linux高性能服务器编程》第四章的笔记，该书描述该章的各种内容的时候，几乎都使用了实践的工具来抓包验证并解释的方式来铺开知识点。]]></description>
+</item>
+<item>
     <title>1bit与2bit字符——简单模拟题</title>
     <link>https://acking-you.gitee.io/posts/1bit%E4%B8%8E2bit%E5%AD%97%E7%AC%A6%E7%AE%80%E5%8D%95%E6%A8%A1%E6%8B%9F%E9%A2%98/</link>
     <pubDate>Sun, 20 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/1bit%E4%B8%8E2bit%E5%AD%97%E7%AC%A6%E7%AE%80%E5%8D%95%E6%A8%A1%E6%8B%9F%E9%A2%98/</guid>
@@ -74,14 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://s4.ax1x.com/2022/01/26/7L40KS.png" referrerpolicy="no-referrer">
             </div>关于实现源码 实现源码仓库在线查看链接： C语言实现 C++实现 哈希表的理论知识 哈希表的定义 哈希表也叫散列表，我们先来看看哈希表的定义： 哈希表是保]]></description>
-</item>
-<item>
-    <title>Java连接数据库</title>
-    <link>https://acking-you.gitee.io/posts/java%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
-    <pubDate>Wed, 16 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/java%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://s4.ax1x.com/2022/01/26/7L4VE9.png" referrerpolicy="no-referrer">
-            </div>Java与数据库 通过Java如何去使用数据库来帮助我们存储数据呢，这将是本章节讨论的重点。 初识JDBC JDBC是什么？JDBC英文名为：Ja]]></description>
 </item>
 </channel>
 </rss>
