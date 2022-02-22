@@ -12,6 +12,14 @@
             </div>bitset 介绍 std::bitset 是标准库中的一个存储 0/1 的大小不可变容器。严格来讲，它并不属于 STL。 bitset 并不属于 STL，而是一种标准库中的 &ldquo;Special Container&rdq]]></description>
 </item>
 <item>
+    <title>k站中转内最便宜的航班--BellmanFord算法和SPFA算法的改造</title>
+    <link>https://acking-you.gitee.io/posts/k%E7%AB%99%E4%B8%AD%E8%BD%AC%E5%86%85%E6%9C%80%E4%BE%BF%E5%AE%9C%E7%9A%84%E8%88%AA%E7%8F%AD-bellmanford%E7%AE%97%E6%B3%95%E5%92%8Cspfa%E7%AE%97%E6%B3%95%E7%9A%84%E6%94%B9%E9%80%A0/</link>
+    <pubDate>Tue, 22 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/k%E7%AB%99%E4%B8%AD%E8%BD%AC%E5%86%85%E6%9C%80%E4%BE%BF%E5%AE%9C%E7%9A%84%E8%88%AA%E7%8F%AD-bellmanford%E7%AE%97%E6%B3%95%E5%92%8Cspfa%E7%AE%97%E6%B3%95%E7%9A%84%E6%94%B9%E9%80%A0/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/18d027e6aa9fbe6cb650bbfce5b1ce53.png#pic_center" referrerpolicy="no-referrer">
+            </div>题目 oj平台 BellmanFord算法的动态规划解决(效率一般) 看到k站内，肯定会想到 BellmanFord 算法的动态规划解法，本来优化成按边遍历的动态规划可以]]></description>
+</item>
+<item>
     <title>TCP协议详解</title>
     <link>https://acking-you.gitee.io/posts/tcp%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3/</link>
     <pubDate>Mon, 21 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/tcp%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3/</guid>
@@ -74,14 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://s4.ax1x.com/2022/02/11/HNLegK.png" referrerpolicy="no-referrer">
             </div>题目 题目解析 很明显，这种多个有序链表的排序可以分解为，两个过程： 合并两个有序链表的函数。 实现多次调用合并两个有序链表。 关于分治法如何优化该过]]></description>
-</item>
-<item>
-    <title>骑士在棋盘上的概率——dp棋盘概率题</title>
-    <link>https://acking-you.gitee.io/posts/%E9%AA%91%E5%A3%AB%E5%9C%A8%E6%A3%8B%E7%9B%98%E4%B8%8A%E7%9A%84%E6%A6%82%E7%8E%87dp%E6%A3%8B%E7%9B%98%E6%A6%82%E7%8E%87%E9%A2%98/</link>
-    <pubDate>Fri, 18 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E9%AA%91%E5%A3%AB%E5%9C%A8%E6%A3%8B%E7%9B%98%E4%B8%8A%E7%9A%84%E6%A6%82%E7%8E%87dp%E6%A3%8B%E7%9B%98%E6%A6%82%E7%8E%87%E9%A2%98/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://w.wallhaven.cc/full/o3/wallhaven-o37oj9.jpg" referrerpolicy="no-referrer">
-            </div>题目 题目链接 题目详解 一个骑士有 $8$ 种可能的走法，骑士会从中以等概率随机选择一种。部分走法可能会让骑士离开棋盘，另外的走法则会让骑士移动到棋盘的]]></description>
 </item>
 </channel>
 </rss>
