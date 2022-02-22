@@ -3,9 +3,17 @@
         <title>L_B__</title>
         <link>https://acking-you.gitee.io/</link>
         <description>专注记笔记</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 21 Feb 2022 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 22 Feb 2022 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://acking-you.gitee.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>bitset与埃氏筛</title>
+    <link>https://acking-you.gitee.io/posts/bitset%E4%B8%8E%E5%9F%83%E6%B0%8F%E7%AD%9B/</link>
+    <pubDate>Tue, 22 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/bitset%E4%B8%8E%E5%9F%83%E6%B0%8F%E7%AD%9B/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/2319540b52ba53f88ff0afbf5cabb92c.png#pic_center" referrerpolicy="no-referrer">
+            </div>bitset 介绍 std::bitset 是标准库中的一个存储 0/1 的大小不可变容器。严格来讲，它并不属于 STL。 bitset 并不属于 STL，而是一种标准库中的 &ldquo;Special Container&rdq]]></description>
+</item>
+<item>
     <title>TCP协议详解</title>
     <link>https://acking-you.gitee.io/posts/tcp%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3/</link>
     <pubDate>Mon, 21 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/tcp%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3/</guid>
@@ -76,14 +84,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://w.wallhaven.cc/full/o3/wallhaven-o37oj9.jpg" referrerpolicy="no-referrer">
             </div>题目 题目链接 题目详解 一个骑士有 $8$ 种可能的走法，骑士会从中以等概率随机选择一种。部分走法可能会让骑士离开棋盘，另外的走法则会让骑士移动到棋盘的]]></description>
-</item>
-<item>
-    <title>C/C&#43;&#43;手撕哈希表详解</title>
-    <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E6%89%8B%E6%92%95%E5%93%88%E5%B8%8C%E8%A1%A8%E8%AF%A6%E8%A7%A3/</link>
-    <pubDate>Wed, 16 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E6%89%8B%E6%92%95%E5%93%88%E5%B8%8C%E8%A1%A8%E8%AF%A6%E8%A7%A3/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://s4.ax1x.com/2022/01/26/7L40KS.png" referrerpolicy="no-referrer">
-            </div>关于实现源码 实现源码仓库在线查看链接： C语言实现 C++实现 哈希表的理论知识 哈希表的定义 哈希表也叫散列表，我们先来看看哈希表的定义： 哈希表是保]]></description>
 </item>
 </channel>
 </rss>
