@@ -3,7 +3,15 @@
         <title>所有文章 - L_B__</title>
         <link>https://acking-you.gitee.io/posts/</link>
         <description>所有文章 | L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 05 Mar 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 19 Mar 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>通过阅读Redis源码简单实现跳表</title>
+    <link>https://acking-you.gitee.io/posts/%E9%98%85%E8%AF%BBredis%E6%BA%90%E7%A0%81%E5%AE%9E%E7%8E%B0%E8%B7%B3%E8%A1%A8/</link>
+    <pubDate>Sat, 19 Mar 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E9%98%85%E8%AF%BBredis%E6%BA%90%E7%A0%81%E5%AE%9E%E7%8E%B0%E8%B7%B3%E8%A1%A8/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/8db816efd6abe83538c4d47108d9c840.png#pic_center" referrerpolicy="no-referrer">
+            </div>什么是跳表？ 想要弄清这个，可以查看一篇大佬的文章，把跳表分析的非常透彻，并且剖析了Redis源码，我这里只讲解不带span的Redis源码C]]></description>
+</item>
+<item>
     <title>宏和模板的对比——预编译和编译的较量</title>
     <link>https://acking-you.gitee.io/posts/%E5%AE%8F%E5%92%8C%E6%A8%A1%E6%9D%BF%E7%9A%84%E5%AF%B9%E6%AF%94%E9%A2%84%E7%BC%96%E8%AF%91%E5%92%8C%E7%BC%96%E8%AF%91%E7%9A%84%E8%BE%83%E9%87%8F/</link>
     <pubDate>Sat, 05 Mar 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E5%AE%8F%E5%92%8C%E6%A8%A1%E6%9D%BF%E7%9A%84%E5%AF%B9%E6%AF%94%E9%A2%84%E7%BC%96%E8%AF%91%E5%92%8C%E7%BC%96%E8%AF%91%E7%9A%84%E8%BE%83%E9%87%8F/</guid>
@@ -74,14 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/acea126d07748d6630f37b1b481e5d73.png#pic_center" referrerpolicy="no-referrer">
             </div>在介绍动态代理之前，必须先来聊聊静态代理。 静态代理介绍 假设现在项目经理有一个需求：在项目现有所有类的方法前后打印日志。 你如何在不修改已有代码]]></description>
-</item>
-<item>
-    <title>PAT甲级--Insertion-or-Heap-Sort</title>
-    <link>https://acking-you.gitee.io/posts/pat%E7%94%B2%E7%BA%A7-insertion-or-heap-sort/</link>
-    <pubDate>Sat, 19 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/pat%E7%94%B2%E7%BA%A7-insertion-or-heap-sort/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/d42c44f8494c4416af716bc7156a4c96.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAQ19ZQ0JYIFB5X1lZRFM=,size_20,color_FFFFFF,t_70,g_se,x_16" referrerpolicy="no-referrer">
-            </div>题目 OJ平台 题目大意 有很多题目实际不需要看懂题目，只需要看懂输入和输出，比如这题。 此题虽然题目较为学术，且比较长，实际总结下来就是，通过给你]]></description>
 </item>
 </channel>
 </rss>

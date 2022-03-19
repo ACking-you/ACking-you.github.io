@@ -3,7 +3,15 @@
         <title>手写数据结构 - 分类 - L_B__</title>
         <link>https://acking-you.gitee.io/categories/%E6%89%8B%E5%86%99%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
         <description>手写数据结构 - 分类 - L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 16 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/%E6%89%8B%E5%86%99%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 19 Mar 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/%E6%89%8B%E5%86%99%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="self" type="application/rss+xml" /><item>
+    <title>通过阅读Redis源码简单实现跳表</title>
+    <link>https://acking-you.gitee.io/posts/%E9%98%85%E8%AF%BBredis%E6%BA%90%E7%A0%81%E5%AE%9E%E7%8E%B0%E8%B7%B3%E8%A1%A8/</link>
+    <pubDate>Sat, 19 Mar 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E9%98%85%E8%AF%BBredis%E6%BA%90%E7%A0%81%E5%AE%9E%E7%8E%B0%E8%B7%B3%E8%A1%A8/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/8db816efd6abe83538c4d47108d9c840.png#pic_center" referrerpolicy="no-referrer">
+            </div>什么是跳表？ 想要弄清这个，可以查看一篇大佬的文章，把跳表分析的非常透彻，并且剖析了Redis源码，我这里只讲解不带span的Redis源码C]]></description>
+</item>
+<item>
     <title>C/C&#43;&#43;手撕哈希表详解</title>
     <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E6%89%8B%E6%92%95%E5%93%88%E5%B8%8C%E8%A1%A8%E8%AF%A6%E8%A7%A3/</link>
     <pubDate>Wed, 16 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E6%89%8B%E6%92%95%E5%93%88%E5%B8%8C%E8%A1%A8%E8%AF%A6%E8%A7%A3/</guid>
