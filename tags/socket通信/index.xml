@@ -8,7 +8,7 @@
     <link>https://acking-you.gitee.io/posts/socket%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9Cc&#43;&#43;%E5%B0%81%E8%A3%85/</link>
     <pubDate>Thu, 20 Jan 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/socket%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9Cc&#43;&#43;%E5%B0%81%E8%A3%85/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="https://s4.ax1x.com/2022/01/22/7hWrhn.png" referrerpolicy="no-referrer">
+                <img src="https://img-blog.csdnimg.cn/img_convert/c3d009d6542a44155b5847c3a9c76dcd.png#pic_center" referrerpolicy="no-referrer">
             </div>封装过程 接口类的实现(抽象类) _public_socket.h 该头文件用于包含所有该系统平台socket所需要依赖的库。 windows平台 #ifndef MY_TINY_STL__PUBLIC_SOCKET_H #define MY_TINY_STL__PUBLIC_SOCKET_H #include &lt;winsock2.h&gt;#pragma comment (lib, &#34;ws2_32.lib&#34;) //加载 ws2_32.dll #endif //MY_TINY_STL__PUBLIC_SOCKET_H]]></description>
 </item>
 </channel>
