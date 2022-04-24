@@ -3,7 +3,15 @@
         <title>所有文章 - L_B__</title>
         <link>https://acking-you.gitee.io/posts/</link>
         <description>所有文章 | L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 27 Mar 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 24 Apr 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>实现实时qq好友搜索框</title>
+    <link>https://acking-you.gitee.io/posts/%E5%AE%9E%E7%8E%B0%E5%AE%9E%E6%97%B6qq%E5%A5%BD%E5%8F%8B%E6%90%9C%E7%B4%A2%E6%A1%86/</link>
+    <pubDate>Sun, 24 Apr 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E5%AE%9E%E7%8E%B0%E5%AE%9E%E6%97%B6qq%E5%A5%BD%E5%8F%8B%E6%90%9C%E7%B4%A2%E6%A1%86/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/526441b9fa37b831c54f8b76bf498cca.png#pic_center" referrerpolicy="no-referrer">
+            </div>项目背景 想要用纯C++实现一个QQ，包括客户端的ui和通信，以及服务端的数据收发通信。 客户端：使用C++的Qt框架实现UI（正在进行），使用]]></description>
+</item>
+<item>
     <title>1.3-多线程控制的另一种姿势-条件变量(condition_variable), 信号量(semaphore)</title>
     <link>https://acking-you.gitee.io/posts/1.3-%E9%94%81%E9%87%8A%E6%94%BE%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E5%A7%BF%E5%8A%BF-%E6%9D%A1%E4%BB%B6%E5%8F%98%E9%87%8Fcondition_variable-%E4%BF%A1%E5%8F%B7%E9%87%8Fsemaphore/</link>
     <pubDate>Sun, 27 Mar 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/1.3-%E9%94%81%E9%87%8A%E6%94%BE%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E5%A7%BF%E5%8A%BF-%E6%9D%A1%E4%BB%B6%E5%8F%98%E9%87%8Fcondition_variable-%E4%BF%A1%E5%8F%B7%E9%87%8Fsemaphore/</guid>
@@ -74,14 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/18d027e6aa9fbe6cb650bbfce5b1ce53.png#pic_center" referrerpolicy="no-referrer">
             </div>题目 oj平台 BellmanFord算法的动态规划解决(效率一般) 看到k站内，肯定会想到 BellmanFord 算法的动态规划解法，本来优化成按边遍历的动态规划可以]]></description>
-</item>
-<item>
-    <title>TCP协议详解</title>
-    <link>https://acking-you.gitee.io/posts/tcp%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3/</link>
-    <pubDate>Mon, 21 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/tcp%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/2729ae8b8d3a403affb81167fb3b1604.png#pic_center" referrerpolicy="no-referrer">
-            </div>本文章为《Linux高性能服务器编程》第四章的笔记，该书描述该章的各种内容的时候，几乎都使用了实践的工具来抓包验证并解释的方式来铺开知识点。]]></description>
 </item>
 </channel>
 </rss>
