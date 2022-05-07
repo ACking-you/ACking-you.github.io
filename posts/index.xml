@@ -3,7 +3,15 @@
         <title>所有文章 - L_B__</title>
         <link>https://acking-you.gitee.io/posts/</link>
         <description>所有文章 | L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 24 Apr 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 07 May 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Go语言上手（一） | 青训营笔记</title>
+    <link>https://acking-you.gitee.io/posts/%E4%B8%80go%E8%AF%AD%E8%A8%80%E4%B8%8A%E6%89%8B-%E9%9D%92%E8%AE%AD%E8%90%A5%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Sat, 07 May 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E4%B8%80go%E8%AF%AD%E8%A8%80%E4%B8%8A%E6%89%8B-%E9%9D%92%E8%AE%AD%E8%90%A5%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/acea126d07748d6630f37b1b481e5d73.png#pic_center" referrerpolicy="no-referrer">
+            </div>这是我参与「第三届青训营 -后端场」笔记创作活动的的第一篇笔记。 语法速览 基础语法 基础语法有几点需要注意： 第一：类型 有值类型，有指针，指针只能作]]></description>
+</item>
+<item>
     <title>实现实时qq好友搜索框</title>
     <link>https://acking-you.gitee.io/posts/%E5%AE%9E%E7%8E%B0%E5%AE%9E%E6%97%B6qq%E5%A5%BD%E5%8F%8B%E6%90%9C%E7%B4%A2%E6%A1%86/</link>
     <pubDate>Sun, 24 Apr 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E5%AE%9E%E7%8E%B0%E5%AE%9E%E6%97%B6qq%E5%A5%BD%E5%8F%8B%E6%90%9C%E7%B4%A2%E6%A1%86/</guid>
@@ -74,14 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/2319540b52ba53f88ff0afbf5cabb92c.png#pic_center" referrerpolicy="no-referrer">
             </div>bitset 介绍 std::bitset 是标准库中的一个存储 0/1 的大小不可变容器。严格来讲，它并不属于 STL。 bitset 并不属于 STL，而是一种标准库中的 &ldquo;Special Container&rdq]]></description>
-</item>
-<item>
-    <title>k站中转内最便宜的航班--BellmanFord算法和SPFA算法的改造</title>
-    <link>https://acking-you.gitee.io/posts/k%E7%AB%99%E4%B8%AD%E8%BD%AC%E5%86%85%E6%9C%80%E4%BE%BF%E5%AE%9C%E7%9A%84%E8%88%AA%E7%8F%AD-bellmanford%E7%AE%97%E6%B3%95%E5%92%8Cspfa%E7%AE%97%E6%B3%95%E7%9A%84%E6%94%B9%E9%80%A0/</link>
-    <pubDate>Tue, 22 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/k%E7%AB%99%E4%B8%AD%E8%BD%AC%E5%86%85%E6%9C%80%E4%BE%BF%E5%AE%9C%E7%9A%84%E8%88%AA%E7%8F%AD-bellmanford%E7%AE%97%E6%B3%95%E5%92%8Cspfa%E7%AE%97%E6%B3%95%E7%9A%84%E6%94%B9%E9%80%A0/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/18d027e6aa9fbe6cb650bbfce5b1ce53.png#pic_center" referrerpolicy="no-referrer">
-            </div>题目 oj平台 BellmanFord算法的动态规划解决(效率一般) 看到k站内，肯定会想到 BellmanFord 算法的动态规划解法，本来优化成按边遍历的动态规划可以]]></description>
 </item>
 </channel>
 </rss>
