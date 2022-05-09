@@ -3,9 +3,17 @@
         <title>L_B__</title>
         <link>https://acking-you.gitee.io/</link>
         <description>专注记笔记</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 07 May 2022 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 08 May 2022 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://acking-you.gitee.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Go语言工程实践（二） | 青训营笔记</title>
+    <link>https://acking-you.gitee.io/posts/golang-note2/</link>
+    <pubDate>Sun, 08 May 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/golang-note2/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/30474f138a1fd099890cfcb17099a60b.png#pic_center" referrerpolicy="no-referrer">
+            </div>这是我参与「第三届青训营 -后端场」笔记创作活动的的第二篇笔记。 并发和Goroutine 并发和并行的区别 并发可能更多的是精确到语言的逻辑，也就]]></description>
+</item>
+<item>
     <title>Go语言上手（一） | 青训营笔记</title>
     <link>https://acking-you.gitee.io/posts/%E4%B8%80go%E8%AF%AD%E8%A8%80%E4%B8%8A%E6%89%8B-%E9%9D%92%E8%AE%AD%E8%90%A5%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Sat, 07 May 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E4%B8%80go%E8%AF%AD%E8%A8%80%E4%B8%8A%E6%89%8B-%E9%9D%92%E8%AE%AD%E8%90%A5%E7%AC%94%E8%AE%B0/</guid>
@@ -76,14 +84,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/daefa95e021376b822b5938e65b8252b.png#pic_center" referrerpolicy="no-referrer">
             </div>题目 题目链接 题目解析 法一：暴力枚举 此题由于是简单题，所以直接可以暴力枚举。暴力枚举的时候我们也可以考虑优化一下，比如外层枚举 $nums[i]$ 的时候，内层直]]></description>
-</item>
-<item>
-    <title>bitset与埃氏筛</title>
-    <link>https://acking-you.gitee.io/posts/bitset%E4%B8%8E%E5%9F%83%E6%B0%8F%E7%AD%9B/</link>
-    <pubDate>Tue, 22 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/bitset%E4%B8%8E%E5%9F%83%E6%B0%8F%E7%AD%9B/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/2319540b52ba53f88ff0afbf5cabb92c.png#pic_center" referrerpolicy="no-referrer">
-            </div>bitset 介绍 std::bitset 是标准库中的一个存储 0/1 的大小不可变容器。严格来讲，它并不属于 STL。 bitset 并不属于 STL，而是一种标准库中的 &ldquo;Special Container&rdq]]></description>
 </item>
 </channel>
 </rss>
