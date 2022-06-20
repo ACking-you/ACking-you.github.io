@@ -3,7 +3,31 @@
         <title>青训营笔记 - 分类 - L_B__</title>
         <link>https://acking-you.gitee.io/categories/%E9%9D%92%E8%AE%AD%E8%90%A5%E7%AC%94%E8%AE%B0/</link>
         <description>青训营笔记 - 分类 - L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 08 May 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/%E9%9D%92%E8%AE%AD%E8%90%A5%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 04 Jun 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/%E9%9D%92%E8%AE%AD%E8%90%A5%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+    <title>消息队列</title>
+    <link>https://acking-you.gitee.io/posts/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</link>
+    <pubDate>Sat, 04 Jun 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/7213ded01d686aab797968b2a6064358.png#pic_center" referrerpolicy="no-referrer">
+            </div>消息队列的应用场景 场景一：解耦 如上所述，如果记录用户行为的这个请求过程，和后台服务的记录过程直接耦合，将会产生很严重的后果，如果后台服务宕机]]></description>
+</item>
+<item>
+    <title>【项目必会】用户鉴权是什么？jwt是什么？ | 青训营笔记</title>
+    <link>https://acking-you.gitee.io/posts/jwt/</link>
+    <pubDate>Tue, 17 May 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/jwt/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/6a656bf83ac631cc9afaeaef07661809.png#pic_center" referrerpolicy="no-referrer">
+            </div>这是我参与「第三届青训营 -后端场」笔记创作活动的的第四篇笔记。 由于最近14周忙的焦头烂额，所以一直没有时间写笔记，而且也很久没有认真看青训营]]></description>
+</item>
+<item>
+    <title>Go语言编码规范和性能调优</title>
+    <link>https://acking-you.gitee.io/posts/glang3/</link>
+    <pubDate>Wed, 11 May 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/glang3/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/f58e3cdfd042ae0db6a192022d83a1ac.png#pic_center" referrerpolicy="no-referrer">
+            </div>编码规范 注释 Good code has lots of comments,bad code requires lots of comments. 不必要的注释 场景一 如上图所示，第一个Open函数应该解释代码作用，而第二个函数这样的作用解释则毫无必要，因]]></description>
+</item>
+<item>
     <title>Go语言工程实践（二） | 青训营笔记</title>
     <link>https://acking-you.gitee.io/posts/golang-note2/</link>
     <pubDate>Sun, 08 May 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/golang-note2/</guid>
