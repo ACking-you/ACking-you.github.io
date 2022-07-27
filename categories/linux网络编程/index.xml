@@ -3,7 +3,15 @@
         <title>Linux网络编程 - 分类 - L_B__</title>
         <link>https://acking-you.gitee.io/categories/linux%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</link>
         <description>Linux网络编程 - 分类 - L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 21 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/linux%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 22 Jun 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/categories/linux%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
+    <title>select、poll、epoll浅析</title>
+    <link>https://acking-you.gitee.io/posts/selectpollepoll%E6%B5%85%E6%9E%90/</link>
+    <pubDate>Wed, 22 Jun 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/selectpollepoll%E6%B5%85%E6%9E%90/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/7213ded01d686aab797968b2a6064358.png#pic_center" referrerpolicy="no-referrer">
+            </div>整篇博客的完整示例代码在：github select 介绍与使用 一、介绍： select系统调用的目的是：在一段指定时间内，监听用户感兴趣的文件描述符上的可]]></description>
+</item>
+<item>
     <title>TCP协议详解</title>
     <link>https://acking-you.gitee.io/posts/tcp%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3/</link>
     <pubDate>Mon, 21 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/tcp%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3/</guid>
