@@ -12,6 +12,14 @@
             </div>前言 在学习计算机组成原理时，书中谈到，&ldquo;使用多级页表可以压缩页表占用的内存&rdquo;，在了解了多级页表的原理后，恐怕对这句话]]></description>
 </item>
 <item>
+    <title>LCP68.美观的花束——sliding_window</title>
+    <link>https://acking-you.gitee.io/posts/lcp68.%E7%BE%8E%E8%A7%82%E7%9A%84%E8%8A%B1%E6%9D%9Fsliding_window/</link>
+    <pubDate>Fri, 07 Oct 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/lcp68.%E7%BE%8E%E8%A7%82%E7%9A%84%E8%8A%B1%E6%9D%9Fsliding_window/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/c3d009d6542a44155b5847c3a9c76dcd.png#pic_center" referrerpolicy="no-referrer">
+            </div>class Solution { public: const int mod = 1e9+7; int beautifulBouquet(vector&lt;int&gt;&amp; flowers, int cnt) { int n = flowers.size(); int ret = 0; int left = 0,right = 0; unordered_map&lt;int,int&gt; count; int option = 1; while(right &lt;= n){ if(option == 1){ //right指针向右边滑动，更新窗口上限 if(right == n){ option = 2; continue ;]]></description>
+</item>
+<item>
     <title>C&#43;&#43;高易用日志库实现</title>
     <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E9%AB%98%E6%98%93%E7%94%A8%E6%97%A5%E5%BF%97%E5%BA%93%E5%AE%9E%E7%8E%B0/</link>
     <pubDate>Mon, 05 Sep 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E9%AB%98%E6%98%93%E7%94%A8%E6%97%A5%E5%BF%97%E5%BA%93%E5%AE%9E%E7%8E%B0/</guid>
@@ -74,14 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/7213ded01d686aab797968b2a6064358.png#pic_center" referrerpolicy="no-referrer">
             </div>整篇博客的完整示例代码在：github select 介绍与使用 一、介绍： select系统调用的目的是：在一段指定时间内，监听用户感兴趣的文件描述符上的可]]></description>
-</item>
-<item>
-    <title>C&#43;&#43;面试题1</title>
-    <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%981/</link>
-    <pubDate>Mon, 20 Jun 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%981/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/9c7b214855b7ea22ad8549a1afb50fc7.png#pic_center" referrerpolicy="no-referrer">
-            </div>1、 在main执行之前和之后执行的代码可能是什么？ main函数执行之前，主要就是初始化系统相关资源： 设置栈指针 初始化静态static变量和g]]></description>
 </item>
 </channel>
 </rss>
