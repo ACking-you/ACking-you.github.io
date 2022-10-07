@@ -3,9 +3,33 @@
         <title>L_B__</title>
         <link>https://acking-you.gitee.io/</link>
         <description>专注记笔记</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 20 Aug 2022 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 07 Oct 2022 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://acking-you.gitee.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[CS原理]多级页表到底如何节约内存？</title>
+    <link>https://acking-you.gitee.io/posts/cs%E5%8E%9F%E7%90%86%E5%A4%9A%E7%BA%A7%E9%A1%B5%E8%A1%A8%E5%88%B0%E5%BA%95%E5%A6%82%E4%BD%95%E8%8A%82%E7%BA%A6%E5%86%85%E5%AD%98/</link>
+    <pubDate>Fri, 07 Oct 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/cs%E5%8E%9F%E7%90%86%E5%A4%9A%E7%BA%A7%E9%A1%B5%E8%A1%A8%E5%88%B0%E5%BA%95%E5%A6%82%E4%BD%95%E8%8A%82%E7%BA%A6%E5%86%85%E5%AD%98/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/385f4cc39feda8590ef42f86b38207ba.png#pic_center" referrerpolicy="no-referrer">
+            </div>前言 在学习计算机组成原理时，书中谈到，&ldquo;使用多级页表可以压缩页表占用的内存&rdquo;，在了解了多级页表的原理后，恐怕对这句话]]></description>
+</item>
+<item>
+    <title>C&#43;&#43;高易用日志库实现</title>
+    <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E9%AB%98%E6%98%93%E7%94%A8%E6%97%A5%E5%BF%97%E5%BA%93%E5%AE%9E%E7%8E%B0/</link>
+    <pubDate>Mon, 05 Sep 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E9%AB%98%E6%98%93%E7%94%A8%E6%97%A5%E5%BF%97%E5%BA%93%E5%AE%9E%E7%8E%B0/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/1d3bc0dca5a88ba6649ae7b1041e8cf5.png#pic_center" referrerpolicy="no-referrer">
+            </div>使用教程 如何添加到项目中使用 输入以下命令得到项目文件 git clone https://github.com/ACking-you/my-logger.git 项目目录如下： dependencies：整个项目的外部依赖，以源码形式存在（比如f]]></description>
+</item>
+<item>
+    <title>驾考软件实现文档</title>
+    <link>https://acking-you.gitee.io/posts/%E9%A9%BE%E8%80%83%E8%BD%AF%E4%BB%B6%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3/</link>
+    <pubDate>Mon, 05 Sep 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E9%A9%BE%E8%80%83%E8%BD%AF%E4%BB%B6%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/e706274b97f65b3aac9471d1da024918.png#pic_center" referrerpolicy="no-referrer">
+            </div>整体架构 1.软件后台架构 采用标准的三层架构： Models层用于底层获取数据和对应的序列化过程 Service层用于包装数据提供接口 Contro]]></description>
+</item>
+<item>
     <title>细粒度锁线程安全队列实现</title>
     <link>https://acking-you.gitee.io/posts/%E7%BB%86%E7%B2%92%E5%BA%A6%E9%94%81%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0/</link>
     <pubDate>Sat, 20 Aug 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E7%BB%86%E7%B2%92%E5%BA%A6%E9%94%81%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0/</guid>
@@ -60,30 +84,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/9c7b214855b7ea22ad8549a1afb50fc7.png#pic_center" referrerpolicy="no-referrer">
             </div>1、 在main执行之前和之后执行的代码可能是什么？ main函数执行之前，主要就是初始化系统相关资源： 设置栈指针 初始化静态static变量和g]]></description>
-</item>
-<item>
-    <title>面试八股——计算机网络1</title>
-    <link>https://acking-you.gitee.io/posts/%E9%9D%A2%E8%AF%95%E5%85%AB%E8%82%A1%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C1/</link>
-    <pubDate>Mon, 20 Jun 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E9%9D%A2%E8%AF%95%E5%85%AB%E8%82%A1%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C1/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/daefa95e021376b822b5938e65b8252b.png#pic_center" referrerpolicy="no-referrer">
-            </div>1、OSI 的七层模型分别是？各自的功能是什么？ 简要概括 物理层：底层数据传输，如网线；网卡标准。 数据链路层：定义数据的基本格式，如何传输，如何]]></description>
-</item>
-<item>
-    <title>redis的介绍与使用</title>
-    <link>https://acking-you.gitee.io/posts/redis%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E4%BD%BF%E7%94%A8/</link>
-    <pubDate>Sat, 11 Jun 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/redis%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E4%BD%BF%E7%94%A8/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/e706274b97f65b3aac9471d1da024918.png#pic_center" referrerpolicy="no-referrer">
-            </div>视频讲解链接 Redis数据库 灵魂拷问：不是学了MySQL吗，存数据也能存了啊，又学一个数据库干嘛？ 在前面我们学习了MySQL数据库，它是一种]]></description>
-</item>
-<item>
-    <title>[Java课设]Swing用分层思想浅写个管理系统课设</title>
-    <link>https://acking-you.gitee.io/posts/java%E8%AF%BE%E8%AE%BEswing%E7%94%A8%E5%88%86%E5%B1%82%E6%80%9D%E6%83%B3%E6%B5%85%E5%86%99%E4%B8%AA%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E8%AE%BE/</link>
-    <pubDate>Sun, 05 Jun 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/java%E8%AF%BE%E8%AE%BEswing%E7%94%A8%E5%88%86%E5%B1%82%E6%80%9D%E6%83%B3%E6%B5%85%E5%86%99%E4%B8%AA%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E8%AE%BE/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/861ccd022cf85b53da1fb8c0d9ce9cbf.png#pic_center" referrerpolicy="no-referrer">
-            </div>本为Java实验课设，为了不浪费时间，故用良好的构思，写出了这个管理系统。 项目仓库地址：已开源GitHub 项目需求 基本要求： 社团管理：具体完]]></description>
 </item>
 </channel>
 </rss>
