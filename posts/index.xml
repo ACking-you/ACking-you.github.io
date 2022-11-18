@@ -3,7 +3,15 @@
         <title>所有文章 - L_B__</title>
         <link>https://acking-you.gitee.io/posts/</link>
         <description>所有文章 | L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 07 Oct 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 18 Nov 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>go语言业务代码一键逆向生成</title>
+    <link>https://acking-you.gitee.io/posts/go%E4%B8%9A%E5%8A%A1%E4%BB%A3%E7%A0%81%E4%B8%80%E9%94%AE%E9%80%86%E5%90%91%E7%94%9F%E6%88%90/</link>
+    <pubDate>Fri, 18 Nov 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/go%E4%B8%9A%E5%8A%A1%E4%BB%A3%E7%A0%81%E4%B8%80%E9%94%AE%E9%80%86%E5%90%91%E7%94%9F%E6%88%90/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/acea126d07748d6630f37b1b481e5d73.png#pic_center" referrerpolicy="no-referrer">
+            </div>go_project_quickstart 快速开始 要求 Go 1.18 及以上版本 安装 1.下载并安装 gin： go get -u github.com/ACking-you/quickstart_project 2.将 gin 引入到代码中： import &quot;github.com/ACking-you/quickstart_project&quot; 3.一键根据数据库快速逆向生成所有业务代码： import ( &#34;github.com/ACking-you/quickstart_project&#34; &#34;github.com/ACking-you/quickstart_project/util&#34;]]></description>
+</item>
+<item>
     <title>[CS原理]多级页表到底如何节约内存？</title>
     <link>https://acking-you.gitee.io/posts/cs%E5%8E%9F%E7%90%86%E5%A4%9A%E7%BA%A7%E9%A1%B5%E8%A1%A8%E5%88%B0%E5%BA%95%E5%A6%82%E4%BD%95%E8%8A%82%E7%BA%A6%E5%86%85%E5%AD%98/</link>
     <pubDate>Fri, 07 Oct 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/cs%E5%8E%9F%E7%90%86%E5%A4%9A%E7%BA%A7%E9%A1%B5%E8%A1%A8%E5%88%B0%E5%BA%95%E5%A6%82%E4%BD%95%E8%8A%82%E7%BA%A6%E5%86%85%E5%AD%98/</guid>
@@ -74,14 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/c592952aec4e1c875073f2a3d970cde5.png#pic_center" referrerpolicy="no-referrer">
             </div>代码仓库：https://github.com/ACking-you/MyUtil/tree/master/my-logger 日志的重要性以]]></description>
-</item>
-<item>
-    <title>select、poll、epoll浅析</title>
-    <link>https://acking-you.gitee.io/posts/selectpollepoll%E6%B5%85%E6%9E%90/</link>
-    <pubDate>Wed, 22 Jun 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/selectpollepoll%E6%B5%85%E6%9E%90/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/7213ded01d686aab797968b2a6064358.png#pic_center" referrerpolicy="no-referrer">
-            </div>整篇博客的完整示例代码在：github select 介绍与使用 一、介绍： select系统调用的目的是：在一段指定时间内，监听用户感兴趣的文件描述符上的可]]></description>
 </item>
 </channel>
 </rss>
