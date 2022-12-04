@@ -3,7 +3,23 @@
         <title>所有文章 - L_B__</title>
         <link>https://acking-you.gitee.io/posts/</link>
         <description>所有文章 | L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 25 Nov 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 04 Dec 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>zip、gzip、bzip2、tar有何联系？</title>
+    <link>https://acking-you.gitee.io/posts/zipgzipbzip2tar%E6%9C%89%E4%BD%95%E8%81%94%E7%B3%BB/</link>
+    <pubDate>Sun, 04 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/zipgzipbzip2tar%E6%9C%89%E4%BD%95%E8%81%94%E7%B3%BB/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/385f4cc39feda8590ef42f86b38207ba.png#pic_center" referrerpolicy="no-referrer">
+            </div>归类 我们把这几个命令归类为几种能力，一个是解压缩能力一个是打拆包能力。 我这里打包的意思是不使用压缩算法对文件进行压缩，只是简单的把多个文件归]]></description>
+</item>
+<item>
+    <title>比较AVL树和红黑树的性能差异</title>
+    <link>https://acking-you.gitee.io/posts/%E6%AF%94%E8%BE%83avl%E6%A0%91%E5%92%8C%E7%BA%A2%E9%BB%91%E6%A0%91%E7%9A%84%E6%80%A7%E8%83%BD%E5%B7%AE%E5%BC%82/</link>
+    <pubDate>Wed, 30 Nov 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E6%AF%94%E8%BE%83avl%E6%A0%91%E5%92%8C%E7%BA%A2%E9%BB%91%E6%A0%91%E7%9A%84%E6%80%A7%E8%83%BD%E5%B7%AE%E5%BC%82/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/c592952aec4e1c875073f2a3d970cde5.png#pic_center" referrerpolicy="no-referrer">
+            </div>缘起 最近在复习数据结构，顺便把以前自己写的博客简单的看了一遍，然后发现了一篇手写AVL树的博客 徒手写的AVL竟然比STL中的红黑树效率更高？]]></description>
+</item>
+<item>
     <title>C&#43;&#43;编译期反射——以AOP为例</title>
     <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E7%BC%96%E8%AF%91%E6%9C%9F%E5%8F%8D%E5%B0%84%E4%BB%A5aop%E4%B8%BA%E4%BE%8B/</link>
     <pubDate>Fri, 25 Nov 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E7%BC%96%E8%AF%91%E6%9C%9F%E5%8F%8D%E5%B0%84%E4%BB%A5aop%E4%B8%BA%E4%BE%8B/</guid>
@@ -66,22 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/c592952aec4e1c875073f2a3d970cde5.png#pic_center" referrerpolicy="no-referrer">
             </div>使用方法 想要更详尽的介绍可以看看这本书，这几个函数牵扯到的内容是并发操作的同步，对应《C++并发编程实战》的第四章，这本书很难啃，有很多地方]]></description>
-</item>
-<item>
-    <title>C&#43;&#43;面试面试一条龙</title>
-    <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E9%9D%A2%E8%AF%95%E4%B8%80%E6%9D%A1%E8%B7%AF/</link>
-    <pubDate>Fri, 05 Aug 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E9%9D%A2%E8%AF%95%E4%B8%80%E6%9D%A1%E8%B7%AF/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/30474f138a1fd099890cfcb17099a60b.png#pic_center" referrerpolicy="no-referrer">
-            </div>面试题的学习（八股文 cpp面试题1 cpp面试题2 面向企业刷题的刷题网站 计算机系统和计算机网络视频学习 计算机系统 准备面试用 深入学习用 计算机网络]]></description>
-</item>
-<item>
-    <title>JSON解析器实现</title>
-    <link>https://acking-you.gitee.io/posts/json%E8%A7%A3%E6%9E%90%E5%99%A8%E5%AE%9E%E7%8E%B0/</link>
-    <pubDate>Wed, 27 Jul 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/json%E8%A7%A3%E6%9E%90%E5%99%A8%E5%AE%9E%E7%8E%B0/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/c2804a2e21ea79a0b060126b82a9145c.png#pic_center" referrerpolicy="no-referrer">
-            </div>代码开源仓库：cpp造轮子项目&ndash;实现json解析器 JSON格式介绍 JSON(JavaScript Object Notation)，是一种序列化的格式，最大的优点在于可读]]></description>
 </item>
 </channel>
 </rss>
