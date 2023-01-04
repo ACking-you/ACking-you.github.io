@@ -26,7 +26,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/acking-you.gitee.io\/posts\/clion%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%85%A8%E8%A7%A3%E6%9E%90\/"
-        },"genre": "posts","keywords": "CLion开发环境配置完全解析","wordcount":  9733 ,
+        },"genre": "posts","keywords": "CLion开发环境配置完全解析","wordcount":  9731 ,
         "url": "https:\/\/acking-you.gitee.io\/posts\/clion%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%85%A8%E8%A7%A3%E6%9E%90\/","datePublished": "2022-12-29T00:00:00+00:00","dateModified": "2022-12-29T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": "作者"},"author": {
@@ -108,7 +108,7 @@
         alt="https://img-blog.csdnimg.cn/img_convert/c2804a2e21ea79a0b060126b82a9145c.png#pic_center"
         title="CLion开发环境配置完全解析" /></div><div class="single-card" data-image="true"><h2 class="single-title animated flipInX">CLion开发环境配置完全解析</h2><div class="post-meta">
                 <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>作者</a></span>&nbsp;<span class="post-category">出版于  <a href="/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"><i class="far fa-folder fa-fw"></i>开发环境配置</a></span></div>
-                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-12-29">2022-12-29</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 9733 字</span>&nbsp;
+                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-12-29">2022-12-29</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 9731 字</span>&nbsp;
                     <span><i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 20 分钟</span>&nbsp;</div>
             </div>
             
@@ -257,169 +257,167 @@
         alt="https://img-blog.csdnimg.cn/a6120ebd1ab24c22aa9f147a915a4fde.png"
         title="clang-format1" /></p>
 <h4 id="我的-clang-format-配置">我的 .clang-format 配置</h4>
-<pre><code>----
-BasedOnStyle: Google
----
-Language: Cpp
-AccessModifierOffset: -4
-AlignAfterOpenBracket: Align
-AlignConsecutiveMacros: AcrossComments
-AlignConsecutiveAssignments: AcrossComments
-AlignConsecutiveDeclarations: AcrossComments
-AlignEscapedNewlines: Left
-AlignOperands: true
-AlignTrailingComments: true
-AllowAllArgumentsOnNextLine: true
-AllowAllConstructorInitializersOnNextLine: false
-AllowAllParametersOfDeclarationOnNextLine: true
-AllowShortBlocksOnASingleLine: Never
-AllowShortCaseLabelsOnASingleLine: true
-AllowShortFunctionsOnASingleLine: All
-AllowShortLambdasOnASingleLine: All
-AllowShortIfStatementsOnASingleLine: WithoutElse
-AllowShortLoopsOnASingleLine: true
-AlwaysBreakAfterDefinitionReturnType: None
-AlwaysBreakAfterReturnType: None
-AlwaysBreakBeforeMultilineStrings: false
-AlwaysBreakTemplateDeclarations: Yes
-BinPackArguments: true
-BinPackParameters: true
-BraceWrapping:
-  AfterCaseLabel: false
-  AfterClass: true
-  AfterControlStatement: Always
-  AfterEnum: true
-  AfterFunction: true
-  AfterNamespace: false
-  AfterObjCDeclaration: false
-  AfterStruct: true
-  AfterUnion: true
-  AfterExternBlock: true
-  BeforeCatch: true
-  BeforeElse: true
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="nl">BasedOnStyle</span><span class="p">:</span> <span class="n">Google</span>
+<span class="nl">Language</span><span class="p">:</span> <span class="n">Cpp</span>
+<span class="nl">AccessModifierOffset</span><span class="p">:</span> <span class="o">-</span><span class="mi">4</span>
+<span class="nl">AlignAfterOpenBracket</span><span class="p">:</span> <span class="n">Align</span>
+<span class="nl">AlignConsecutiveMacros</span><span class="p">:</span> <span class="n">AcrossComments</span>
+<span class="nl">AlignConsecutiveAssignments</span><span class="p">:</span> <span class="n">AcrossComments</span>
+<span class="nl">AlignConsecutiveDeclarations</span><span class="p">:</span> <span class="n">AcrossComments</span>
+<span class="nl">AlignEscapedNewlines</span><span class="p">:</span> <span class="n">Left</span>
+<span class="nl">AlignOperands</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">AlignTrailingComments</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">AllowAllArgumentsOnNextLine</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">AllowAllConstructorInitializersOnNextLine</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">AllowAllParametersOfDeclarationOnNextLine</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">AllowShortBlocksOnASingleLine</span><span class="p">:</span> <span class="n">Never</span>
+<span class="nl">AllowShortCaseLabelsOnASingleLine</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">AllowShortFunctionsOnASingleLine</span><span class="p">:</span> <span class="n">All</span>
+<span class="nl">AllowShortLambdasOnASingleLine</span><span class="p">:</span> <span class="n">All</span>
+<span class="nl">AllowShortIfStatementsOnASingleLine</span><span class="p">:</span> <span class="n">WithoutElse</span>
+<span class="nl">AllowShortLoopsOnASingleLine</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">AlwaysBreakAfterDefinitionReturnType</span><span class="p">:</span> <span class="n">None</span>
+<span class="nl">AlwaysBreakAfterReturnType</span><span class="p">:</span> <span class="n">None</span>
+<span class="nl">AlwaysBreakBeforeMultilineStrings</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">AlwaysBreakTemplateDeclarations</span><span class="p">:</span> <span class="n">Yes</span>
+<span class="nl">BinPackArguments</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">BinPackParameters</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">BraceWrapping</span><span class="p">:</span>
+  <span class="nl">AfterCaseLabel</span><span class="p">:</span> <span class="nb">false</span>
+  <span class="nl">AfterClass</span><span class="p">:</span> <span class="nb">true</span>
+  <span class="nl">AfterControlStatement</span><span class="p">:</span> <span class="n">Always</span>
+  <span class="nl">AfterEnum</span><span class="p">:</span> <span class="nb">true</span>
+  <span class="nl">AfterFunction</span><span class="p">:</span> <span class="nb">true</span>
+  <span class="nl">AfterNamespace</span><span class="p">:</span> <span class="nb">false</span>
+  <span class="nl">AfterObjCDeclaration</span><span class="p">:</span> <span class="nb">false</span>
+  <span class="nl">AfterStruct</span><span class="p">:</span> <span class="nb">true</span>
+  <span class="nl">AfterUnion</span><span class="p">:</span> <span class="nb">true</span>
+  <span class="nl">AfterExternBlock</span><span class="p">:</span> <span class="nb">true</span>
+  <span class="nl">BeforeCatch</span><span class="p">:</span> <span class="nb">true</span>
+  <span class="nl">BeforeElse</span><span class="p">:</span> <span class="nb">true</span>
 
-BreakBeforeBinaryOperators: None
-BreakBeforeBraces: Custom
-BreakBeforeInheritanceComma: false
-BreakInheritanceList: BeforeColon
-BreakBeforeTernaryOperators: true
-BreakConstructorInitializersBeforeComma: false
-BreakConstructorInitializers: BeforeColon
-BreakAfterJavaFieldAnnotations: false
-BreakStringLiterals: true
-ColumnLimit: 80
-CommentPragmas: &quot;^ NOLINT:&quot;
-CompactNamespaces: false
-ConstructorInitializerAllOnOneLineOrOnePerLine: true
-ConstructorInitializerIndentWidth: 4
-ContinuationIndentWidth: 4
-Cpp11BracedListStyle: true
-DeriveLineEnding: true
-DerivePointerAlignment: true
-DisableFormat: false
-ExperimentalAutoDetectBinPacking: false
-FixNamespaceComments: true
-ForEachMacros:
-  - foreach
-  - Q_FOREACH
-  - BOOST_FOREACH
-IncludeBlocks: Regroup
-IncludeCategories:
-  - Regex: '^&lt;ext/.*\.h&gt;'
-    Priority: 2
-    SortPriority: 0
-  - Regex: '^&lt;.*\.h&gt;'
-    Priority: 1
-    SortPriority: 0
-  - Regex: &quot;^&lt;.*&quot;
-    Priority: 2
-    SortPriority: 0
-  - Regex: &quot;.*&quot;
-    Priority: 3
-    SortPriority: 0
-IncludeIsMainRegex: &quot;([-_](test|unittest))?$&quot;
-IncludeIsMainSourceRegex: &quot;&quot;
-IndentCaseLabels: true
-IndentGotoLabels: true
-IndentPPDirectives: None
-IndentWidth: 4
-IndentWrappedFunctionNames: false
-JavaScriptQuotes: Leave
-JavaScriptWrapImports: true
-KeepEmptyLinesAtTheStartOfBlocks: false
-MacroBlockBegin: &quot;&quot;
-MacroBlockEnd: &quot;&quot;
-MaxEmptyLinesToKeep: 1
-NamespaceIndentation: None
-ObjCBinPackProtocolList: Never
-ObjCBlockIndentWidth: 2
-ObjCSpaceAfterProperty: false
-ObjCSpaceBeforeProtocolList: true
-PenaltyBreakAssignment: 2
-PenaltyBreakBeforeFirstCallParameter: 1
-PenaltyBreakComment: 300
-PenaltyBreakFirstLessLess: 120
-PenaltyBreakString: 1000
-PenaltyBreakTemplateDeclaration: 10
-PenaltyExcessCharacter: 1000000
-PenaltyReturnTypeOnItsOwnLine: 200
-PointerAlignment: Right
-RawStringFormats:
-  - Language: Cpp
-    Delimiters:
-      - cc
-      - CC
-      - cpp
-      - Cpp
-      - CPP
-      - &quot;c++&quot;
-      - &quot;C++&quot;
-    CanonicalDelimiter: &quot;&quot;
-    BasedOnStyle: google
-  - Language: TextProto
-    Delimiters:
-      - pb
-      - PB
-      - proto
-      - PROTO
-    EnclosingFunctions:
-      - EqualsProto
-      - EquivToProto
-      - PARSE_PARTIAL_TEXT_PROTO
-      - PARSE_TEST_PROTO
-      - PARSE_TEXT_PROTO
-      - ParseTextOrDie
-      - ParseTextProtoOrDie
-    CanonicalDelimiter: &quot;&quot;
-    BasedOnStyle: google
-ReflowComments: true
-SortIncludes: CaseInsensitive
-SortUsingDeclarations: false
-SpaceAfterCStyleCast: false
-SpaceAfterLogicalNot: false
-SpaceAfterTemplateKeyword: true
-SpaceBeforeAssignmentOperators: true
-SpaceBeforeCpp11BracedList: false
-SpaceBeforeCtorInitializerColon: true
-SpaceBeforeInheritanceColon: true
-SpaceBeforeParens: ControlStatements
-SpaceBeforeRangeBasedForLoopColon: true
-SpaceInEmptyBlock: false
-SpaceInEmptyParentheses: false
-SpacesBeforeTrailingComments: 1
-SpacesInAngles: false
-SpacesInConditionalStatement: false
-SpacesInContainerLiterals: false
-SpacesInCStyleCastParentheses: false
-SpacesInParentheses: false
-SpacesInSquareBrackets: false
-SpaceBeforeSquareBrackets: false
-Standard: Auto
-StatementMacros:
-  - Q_UNUSED
-  - QT_REQUIRE_VERSION
-TabWidth: 4
-</code></pre><h2 id="编译工具链设置">编译工具链设置</h2>
+<span class="nl">BreakBeforeBinaryOperators</span><span class="p">:</span> <span class="n">None</span>
+<span class="nl">BreakBeforeBraces</span><span class="p">:</span> <span class="n">Custom</span>
+<span class="nl">BreakBeforeInheritanceComma</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">BreakInheritanceList</span><span class="p">:</span> <span class="n">BeforeColon</span>
+<span class="nl">BreakBeforeTernaryOperators</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">BreakConstructorInitializersBeforeComma</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">BreakConstructorInitializers</span><span class="p">:</span> <span class="n">BeforeColon</span>
+<span class="nl">BreakAfterJavaFieldAnnotations</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">BreakStringLiterals</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">ColumnLimit</span><span class="p">:</span> <span class="mi">80</span>
+<span class="nl">CommentPragmas</span><span class="p">:</span> <span class="s">&#34;^ NOLINT:&#34;</span>
+<span class="nl">CompactNamespaces</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">ConstructorInitializerAllOnOneLineOrOnePerLine</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">ConstructorInitializerIndentWidth</span><span class="p">:</span> <span class="mi">4</span>
+<span class="nl">ContinuationIndentWidth</span><span class="p">:</span> <span class="mi">4</span>
+<span class="nl">Cpp11BracedListStyle</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">DeriveLineEnding</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">DerivePointerAlignment</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">DisableFormat</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">ExperimentalAutoDetectBinPacking</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">FixNamespaceComments</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">ForEachMacros</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">foreach</span>
+  <span class="o">-</span> <span class="n">Q_FOREACH</span>
+  <span class="o">-</span> <span class="n">BOOST_FOREACH</span>
+<span class="nl">IncludeBlocks</span><span class="p">:</span> <span class="n">Regroup</span>
+<span class="nl">IncludeCategories</span><span class="p">:</span>
+  <span class="o">-</span> <span class="nl">Regex</span><span class="p">:</span> <span class="err">&#39;</span><span class="o">^&lt;</span><span class="n">ext</span><span class="o">/</span><span class="p">.</span><span class="o">*</span><span class="err">\</span><span class="p">.</span><span class="n">h</span><span class="o">&gt;</span><span class="err">&#39;</span>
+    <span class="nl">Priority</span><span class="p">:</span> <span class="mi">2</span>
+    <span class="nl">SortPriority</span><span class="p">:</span> <span class="mi">0</span>
+  <span class="o">-</span> <span class="nl">Regex</span><span class="p">:</span> <span class="err">&#39;</span><span class="o">^&lt;</span><span class="p">.</span><span class="o">*</span><span class="err">\</span><span class="p">.</span><span class="n">h</span><span class="o">&gt;</span><span class="err">&#39;</span>
+    <span class="nl">Priority</span><span class="p">:</span> <span class="mi">1</span>
+    <span class="nl">SortPriority</span><span class="p">:</span> <span class="mi">0</span>
+  <span class="o">-</span> <span class="nl">Regex</span><span class="p">:</span> <span class="s">&#34;^&lt;.*&#34;</span>
+    <span class="nl">Priority</span><span class="p">:</span> <span class="mi">2</span>
+    <span class="nl">SortPriority</span><span class="p">:</span> <span class="mi">0</span>
+  <span class="o">-</span> <span class="nl">Regex</span><span class="p">:</span> <span class="s">&#34;.*&#34;</span>
+    <span class="nl">Priority</span><span class="p">:</span> <span class="mi">3</span>
+    <span class="nl">SortPriority</span><span class="p">:</span> <span class="mi">0</span>
+<span class="nl">IncludeIsMainRegex</span><span class="p">:</span> <span class="s">&#34;([-_](test|unittest))?$&#34;</span>
+<span class="nl">IncludeIsMainSourceRegex</span><span class="p">:</span> <span class="s">&#34;&#34;</span>
+<span class="nl">IndentCaseLabels</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">IndentGotoLabels</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">IndentPPDirectives</span><span class="p">:</span> <span class="n">None</span>
+<span class="nl">IndentWidth</span><span class="p">:</span> <span class="mi">4</span>
+<span class="nl">IndentWrappedFunctionNames</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">JavaScriptQuotes</span><span class="p">:</span> <span class="n">Leave</span>
+<span class="nl">JavaScriptWrapImports</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">KeepEmptyLinesAtTheStartOfBlocks</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">MacroBlockBegin</span><span class="p">:</span> <span class="s">&#34;&#34;</span>
+<span class="nl">MacroBlockEnd</span><span class="p">:</span> <span class="s">&#34;&#34;</span>
+<span class="nl">MaxEmptyLinesToKeep</span><span class="p">:</span> <span class="mi">1</span>
+<span class="nl">NamespaceIndentation</span><span class="p">:</span> <span class="n">None</span>
+<span class="nl">ObjCBinPackProtocolList</span><span class="p">:</span> <span class="n">Never</span>
+<span class="nl">ObjCBlockIndentWidth</span><span class="p">:</span> <span class="mi">2</span>
+<span class="nl">ObjCSpaceAfterProperty</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">ObjCSpaceBeforeProtocolList</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">PenaltyBreakAssignment</span><span class="p">:</span> <span class="mi">2</span>
+<span class="nl">PenaltyBreakBeforeFirstCallParameter</span><span class="p">:</span> <span class="mi">1</span>
+<span class="nl">PenaltyBreakComment</span><span class="p">:</span> <span class="mi">300</span>
+<span class="nl">PenaltyBreakFirstLessLess</span><span class="p">:</span> <span class="mi">120</span>
+<span class="nl">PenaltyBreakString</span><span class="p">:</span> <span class="mi">1000</span>
+<span class="nl">PenaltyBreakTemplateDeclaration</span><span class="p">:</span> <span class="mi">10</span>
+<span class="nl">PenaltyExcessCharacter</span><span class="p">:</span> <span class="mi">1000000</span>
+<span class="nl">PenaltyReturnTypeOnItsOwnLine</span><span class="p">:</span> <span class="mi">200</span>
+<span class="nl">PointerAlignment</span><span class="p">:</span> <span class="n">Right</span>
+<span class="nl">RawStringFormats</span><span class="p">:</span>
+  <span class="o">-</span> <span class="nl">Language</span><span class="p">:</span> <span class="n">Cpp</span>
+    <span class="nl">Delimiters</span><span class="p">:</span>
+      <span class="o">-</span> <span class="n">cc</span>
+      <span class="o">-</span> <span class="n">CC</span>
+      <span class="o">-</span> <span class="n">cpp</span>
+      <span class="o">-</span> <span class="n">Cpp</span>
+      <span class="o">-</span> <span class="n">CPP</span>
+      <span class="o">-</span> <span class="s">&#34;c++&#34;</span>
+      <span class="o">-</span> <span class="s">&#34;C++&#34;</span>
+    <span class="nl">CanonicalDelimiter</span><span class="p">:</span> <span class="s">&#34;&#34;</span>
+    <span class="nl">BasedOnStyle</span><span class="p">:</span> <span class="n">google</span>
+  <span class="o">-</span> <span class="nl">Language</span><span class="p">:</span> <span class="n">TextProto</span>
+    <span class="nl">Delimiters</span><span class="p">:</span>
+      <span class="o">-</span> <span class="n">pb</span>
+      <span class="o">-</span> <span class="n">PB</span>
+      <span class="o">-</span> <span class="n">proto</span>
+      <span class="o">-</span> <span class="n">PROTO</span>
+    <span class="nl">EnclosingFunctions</span><span class="p">:</span>
+      <span class="o">-</span> <span class="n">EqualsProto</span>
+      <span class="o">-</span> <span class="n">EquivToProto</span>
+      <span class="o">-</span> <span class="n">PARSE_PARTIAL_TEXT_PROTO</span>
+      <span class="o">-</span> <span class="n">PARSE_TEST_PROTO</span>
+      <span class="o">-</span> <span class="n">PARSE_TEXT_PROTO</span>
+      <span class="o">-</span> <span class="n">ParseTextOrDie</span>
+      <span class="o">-</span> <span class="n">ParseTextProtoOrDie</span>
+    <span class="nl">CanonicalDelimiter</span><span class="p">:</span> <span class="s">&#34;&#34;</span>
+    <span class="nl">BasedOnStyle</span><span class="p">:</span> <span class="n">google</span>
+<span class="nl">ReflowComments</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">SortIncludes</span><span class="p">:</span> <span class="n">CaseInsensitive</span>
+<span class="nl">SortUsingDeclarations</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">SpaceAfterCStyleCast</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">SpaceAfterLogicalNot</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">SpaceAfterTemplateKeyword</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">SpaceBeforeAssignmentOperators</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">SpaceBeforeCpp11BracedList</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">SpaceBeforeCtorInitializerColon</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">SpaceBeforeInheritanceColon</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">SpaceBeforeParens</span><span class="p">:</span> <span class="n">ControlStatements</span>
+<span class="nl">SpaceBeforeRangeBasedForLoopColon</span><span class="p">:</span> <span class="nb">true</span>
+<span class="nl">SpaceInEmptyBlock</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">SpaceInEmptyParentheses</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">SpacesBeforeTrailingComments</span><span class="p">:</span> <span class="mi">1</span>
+<span class="nl">SpacesInAngles</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">SpacesInConditionalStatement</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">SpacesInContainerLiterals</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">SpacesInCStyleCastParentheses</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">SpacesInParentheses</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">SpacesInSquareBrackets</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">SpaceBeforeSquareBrackets</span><span class="p">:</span> <span class="nb">false</span>
+<span class="nl">Standard</span><span class="p">:</span> <span class="n">Auto</span>
+<span class="nl">StatementMacros</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">Q_UNUSED</span>
+  <span class="o">-</span> <span class="n">QT_REQUIRE_VERSION</span>
+<span class="nl">TabWidth</span><span class="p">:</span> <span class="mi">4</span>
+</code></pre></div><h2 id="编译工具链设置">编译工具链设置</h2>
 <h3 id="编译工具链的添加与解释">编译工具链的添加与解释</h3>
 <p>这个配置是进行C++开发的关键，因为这个编译工具链就意味着C++的编译环境。</p>
 <p>按下图点开对应的信息，如果你任何编译工具链都没有添加，由于新版本的CLion它会自带一个mingw的编译套件，所以默认会有一个CLion自带的mingw编译工具链，如下图所示我的编译工具链稍微有点丰富，有 msvc、g++、clang++、mingw，作为一个刚刚入门学编程的新手，我建议编译工具链这一块暂时就没必要了解了，但在CLion中编译的具体配置流程我认为还是有必要讲清楚。<img
