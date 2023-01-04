@@ -3,9 +3,17 @@
         <title>L_B__</title>
         <link>https://acking-you.gitee.io/</link>
         <description>专注记笔记</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 19 Dec 2022 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 29 Dec 2022 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://acking-you.gitee.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>CLion开发环境配置完全解析</title>
+    <link>https://acking-you.gitee.io/posts/clion%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%85%A8%E8%A7%A3%E6%9E%90/</link>
+    <pubDate>Thu, 29 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/clion%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%85%A8%E8%A7%A3%E6%9E%90/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/c2804a2e21ea79a0b060126b82a9145c.png#pic_center" referrerpolicy="no-referrer">
+            </div>下载与安装 关于CLion的安装我推荐安装最新的CLion 2022.3之后的版本，因为从这个版本后性能提升了很多，而且还增加了对cmake代码]]></description>
+</item>
+<item>
     <title>chatgpt教我内存对齐，对齐了但没完全对齐？</title>
     <link>https://acking-you.gitee.io/posts/chatgp%E6%95%99%E6%88%91%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/</link>
     <pubDate>Mon, 19 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/chatgp%E6%95%99%E6%88%91%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/</guid>
@@ -76,14 +84,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/c3d009d6542a44155b5847c3a9c76dcd.png#pic_center" referrerpolicy="no-referrer">
             </div>class Solution { public: const int mod = 1e9+7; int beautifulBouquet(vector&lt;int&gt;&amp; flowers, int cnt) { int n = flowers.size(); int ret = 0; int left = 0,right = 0; unordered_map&lt;int,int&gt; count; int option = 1; while(right &lt;= n){ if(option == 1){ //right指针向右边滑动，更新窗口上限 if(right == n){ option = 2; continue ;]]></description>
-</item>
-<item>
-    <title>C&#43;&#43;高易用日志库实现</title>
-    <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E9%AB%98%E6%98%93%E7%94%A8%E6%97%A5%E5%BF%97%E5%BA%93%E5%AE%9E%E7%8E%B0/</link>
-    <pubDate>Mon, 05 Sep 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E9%AB%98%E6%98%93%E7%94%A8%E6%97%A5%E5%BF%97%E5%BA%93%E5%AE%9E%E7%8E%B0/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/1d3bc0dca5a88ba6649ae7b1041e8cf5.png#pic_center" referrerpolicy="no-referrer">
-            </div>使用教程 如何添加到项目中使用 输入以下命令得到项目文件 git clone https://github.com/ACking-you/my-logger.git 项目目录如下： dependencies：整个项目的外部依赖，以源码形式存在（比如f]]></description>
 </item>
 </channel>
 </rss>
