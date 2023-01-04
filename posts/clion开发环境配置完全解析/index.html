@@ -257,8 +257,8 @@
         alt="https://img-blog.csdnimg.cn/a6120ebd1ab24c22aa9f147a915a4fde.png"
         title="clang-format1" /></p>
 <h4 id="我的-clang-format-配置">我的 .clang-format 配置</h4>
-<pre><code>---
-BasedOnStyle: Microsoft
+<pre><code>----
+BasedOnStyle: Google
 ---
 Language: Cpp
 AccessModifierOffset: -4
@@ -320,23 +320,23 @@ DisableFormat: false
 ExperimentalAutoDetectBinPacking: false
 FixNamespaceComments: true
 ForEachMacros:
- - foreach
- - Q_FOREACH
- - BOOST_FOREACH
+  - foreach
+  - Q_FOREACH
+  - BOOST_FOREACH
 IncludeBlocks: Regroup
 IncludeCategories:
- - Regex: '^&lt;ext/.*\.h&gt;'
-   Priority: 2
-   SortPriority: 0
- - Regex: '^&lt;.*\.h&gt;'
-   Priority: 1
-   SortPriority: 0
- - Regex: &quot;^&lt;.*&quot;
-   Priority: 2
-   SortPriority: 0
- - Regex: &quot;.*&quot;
-   Priority: 3
-   SortPriority: 0
+  - Regex: '^&lt;ext/.*\.h&gt;'
+    Priority: 2
+    SortPriority: 0
+  - Regex: '^&lt;.*\.h&gt;'
+    Priority: 1
+    SortPriority: 0
+  - Regex: &quot;^&lt;.*&quot;
+    Priority: 2
+    SortPriority: 0
+  - Regex: &quot;.*&quot;
+    Priority: 3
+    SortPriority: 0
 IncludeIsMainRegex: &quot;([-_](test|unittest))?$&quot;
 IncludeIsMainSourceRegex: &quot;&quot;
 IndentCaseLabels: true
@@ -365,33 +365,33 @@ PenaltyExcessCharacter: 1000000
 PenaltyReturnTypeOnItsOwnLine: 200
 PointerAlignment: Right
 RawStringFormats:
- - Language: Cpp
-   Delimiters:
-     - cc
-     - CC
-     - cpp
-     - Cpp
-     - CPP
-     - &quot;c++&quot;
-     - &quot;C++&quot;
-   CanonicalDelimiter: &quot;&quot;
-   BasedOnStyle: google
- - Language: TextProto
-   Delimiters:
-     - pb
-     - PB
-     - proto
-     - PROTO
-   EnclosingFunctions:
-     - EqualsProto
-     - EquivToProto
-     - PARSE_PARTIAL_TEXT_PROTO
-     - PARSE_TEST_PROTO
-     - PARSE_TEXT_PROTO
-     - ParseTextOrDie
-     - ParseTextProtoOrDie
-   CanonicalDelimiter: &quot;&quot;
-   BasedOnStyle: google
+  - Language: Cpp
+    Delimiters:
+      - cc
+      - CC
+      - cpp
+      - Cpp
+      - CPP
+      - &quot;c++&quot;
+      - &quot;C++&quot;
+    CanonicalDelimiter: &quot;&quot;
+    BasedOnStyle: google
+  - Language: TextProto
+    Delimiters:
+      - pb
+      - PB
+      - proto
+      - PROTO
+    EnclosingFunctions:
+      - EqualsProto
+      - EquivToProto
+      - PARSE_PARTIAL_TEXT_PROTO
+      - PARSE_TEST_PROTO
+      - PARSE_TEXT_PROTO
+      - ParseTextOrDie
+      - ParseTextProtoOrDie
+    CanonicalDelimiter: &quot;&quot;
+    BasedOnStyle: google
 ReflowComments: true
 SortIncludes: CaseInsensitive
 SortUsingDeclarations: false
@@ -416,8 +416,8 @@ SpacesInSquareBrackets: false
 SpaceBeforeSquareBrackets: false
 Standard: Auto
 StatementMacros:
- - Q_UNUSED
- - QT_REQUIRE_VERSION
+  - Q_UNUSED
+  - QT_REQUIRE_VERSION
 TabWidth: 4
 </code></pre><h2 id="编译工具链设置">编译工具链设置</h2>
 <h3 id="编译工具链的添加与解释">编译工具链的添加与解释</h3>
