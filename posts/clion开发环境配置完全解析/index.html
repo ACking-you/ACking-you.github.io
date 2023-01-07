@@ -26,7 +26,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/acking-you.gitee.io\/posts\/clion%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%85%A8%E8%A7%A3%E6%9E%90\/"
-        },"genre": "posts","keywords": "CLion开发环境配置完全解析","wordcount":  9731 ,
+        },"genre": "posts","keywords": "CLion开发环境配置完全解析","wordcount":  10811 ,
         "url": "https:\/\/acking-you.gitee.io\/posts\/clion%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%85%A8%E8%A7%A3%E6%9E%90\/","datePublished": "2022-12-29T00:00:00+00:00","dateModified": "2022-12-29T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": "作者"},"author": {
@@ -108,8 +108,8 @@
         alt="https://img-blog.csdnimg.cn/img_convert/c2804a2e21ea79a0b060126b82a9145c.png#pic_center"
         title="CLion开发环境配置完全解析" /></div><div class="single-card" data-image="true"><h2 class="single-title animated flipInX">CLion开发环境配置完全解析</h2><div class="post-meta">
                 <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>作者</a></span>&nbsp;<span class="post-category">出版于  <a href="/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"><i class="far fa-folder fa-fw"></i>开发环境配置</a></span></div>
-                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-12-29">2022-12-29</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 9731 字</span>&nbsp;
-                    <span><i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 20 分钟</span>&nbsp;</div>
+                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-12-29">2022-12-29</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 10811 字</span>&nbsp;
+                    <span><i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 22 分钟</span>&nbsp;</div>
             </div>
             
             <hr><div class="details toc" id="toc-static"  data-kept="">
@@ -568,6 +568,7 @@
 <li>CMAKE_EXE_LINKER_FLAGS：指定链接可执行文件时使用的链接选项</li>
 <li>CMAKE_SYSTEM_NAME：指定当前操作系统名称（如Windows、Linux等）</li>
 <li>CMAKE_SYSTEM_PROCESSOR：指定当前处理器的类型（如x86、x86_64等）</li>
+<li>CMAKE_CXX_COMPILER_ID：指定了当前使用的C++编译器，同理可得C的编译器对应的名字。</li>
 </ul>
 <p>对这些变量做一个简单的实践：</p>
 <ol>
@@ -603,14 +604,36 @@
         title="clion7" /></p>
 </li>
 <li>
-<p>通过变量检测当前的操作系统执行不同的cmake代码：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmake" data-lang="cmake"><span class="nb">IF</span> <span class="p">(</span><span class="s">CMAKE_SYSTEM_NAME</span> <span class="s">MATCHES</span> <span class="s2">&#34;Linux&#34;</span><span class="p">)</span><span class="err">
+<p>通过变量检测环境执行不同的cmake代码：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmake" data-lang="cmake"><span class="c">#判断当前的操作系统
+</span><span class="c"></span><span class="nb">if</span> <span class="p">(</span><span class="s">CMAKE_SYSTEM_NAME</span> <span class="s">MATCHES</span> <span class="s2">&#34;Linux&#34;</span><span class="p">)</span><span class="err">
 </span><span class="err"></span>    <span class="nb">target_link_libraries</span><span class="p">(</span><span class="s">my-logger</span> <span class="s">PUBLIC</span> <span class="s">fmt-header-only</span> <span class="s">pthread</span><span class="p">)</span><span class="err">
-</span><span class="err"></span>    <span class="nb">MESSAGE</span><span class="p">(</span><span class="s">STATUS</span> <span class="s2">&#34;Now is Linux&#34;</span><span class="p">)</span><span class="err">
-</span><span class="err"></span><span class="nb">ELSEIF</span> <span class="p">(</span><span class="s">CMAKE_SYSTEM_NAME</span> <span class="s">MATCHES</span> <span class="s2">&#34;Windows&#34;</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>    <span class="nb">message</span><span class="p">(</span><span class="s">STATUS</span> <span class="s2">&#34;Now is Linux&#34;</span><span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">elseif</span> <span class="p">(</span><span class="s">CMAKE_SYSTEM_NAME</span> <span class="s">MATCHES</span> <span class="s2">&#34;Windows&#34;</span><span class="p">)</span><span class="err">
 </span><span class="err"></span>    <span class="nb">target_link_libraries</span><span class="p">(</span><span class="s">my-logger</span> <span class="s">PUBLIC</span> <span class="s">fmt-header-only</span> <span class="s">ws2_32</span><span class="p">)</span><span class="err">
-</span><span class="err"></span>    <span class="nb">MESSAGE</span><span class="p">(</span><span class="s">STATUS</span> <span class="s2">&#34;Now is windows&#34;</span><span class="p">)</span><span class="err">
-</span><span class="err"></span><span class="nb">ENDIF</span> <span class="p">()</span><span class="err">
+</span><span class="err"></span>    <span class="nb">message</span><span class="p">(</span><span class="s">STATUS</span> <span class="s2">&#34;Now is windows&#34;</span><span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">endif</span> <span class="p">()</span><span class="err">
+</span><span class="err"></span><span class="c">#判断当前使用的编译器
+</span><span class="c"></span><span class="nb">if</span> <span class="p">(</span><span class="s">CMAKE_CXX_COMPILER_ID</span> <span class="s">STREQUAL</span> <span class="s2">&#34;GNU&#34;</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>  <span class="c"># Do something for GCC
+</span><span class="c"></span><span class="nb">elseif</span> <span class="p">(</span><span class="s">CMAKE_CXX_COMPILER_ID</span> <span class="s">STREQUAL</span> <span class="s2">&#34;Intel&#34;</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>  <span class="c"># Do something for Intel C++
+</span><span class="c"></span><span class="nb">elseif</span> <span class="p">(</span><span class="s">CMAKE_CXX_COMPILER_ID</span> <span class="s">STREQUAL</span> <span class="s2">&#34;Microsoft&#34;</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>  <span class="c"># Do something for Microsoft Visual C++
+</span><span class="c"></span><span class="nb">elseif</span> <span class="p">(</span><span class="s">CMAKE_CXX_COMPILER_ID</span> <span class="s">STREQUAL</span> <span class="s2">&#34;Clang&#34;</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>  <span class="c"># Do something for Clang
+</span><span class="c"></span><span class="nb">endif</span><span class="p">()</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="c">#判断当前的系统架构
+</span><span class="c"></span><span class="nb">if</span> <span class="p">(</span><span class="s">CMAKE_SYSTEM_PROCESSOR</span> <span class="s">MATCHES</span> <span class="s2">&#34;i.86|x86|x86_64|AMD64&#34;</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>  <span class="c"># Do something for x86 architecture
+</span><span class="c"></span><span class="nb">elseif</span> <span class="p">(</span><span class="s">CMAKE_SYSTEM_PROCESSOR</span> <span class="s">MATCHES</span> <span class="s2">&#34;^(arm|aarch64)&#34;</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>  <span class="c"># Do something for ARM architecture
+</span><span class="c"></span><span class="nb">elseif</span> <span class="p">(</span><span class="s">CMAKE_SYSTEM_PROCESSOR</span> <span class="s">MATCHES</span> <span class="s2">&#34;^(mips|mipsel|mips64)&#34;</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>  <span class="c"># Do something for MIPS architecture
+</span><span class="c"></span><span class="nb">elseif</span> <span class="p">(</span><span class="s">CMAKE_SYSTEM_PROCESSOR</span> <span class="s">MATCHES</span> <span class="s2">&#34;^(powerpc|ppc64)&#34;</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>  <span class="c"># Do something for PowerPC architecture
+</span><span class="c"></span><span class="nb">endif</span><span class="p">()</span><span class="err">
 </span></code></pre></div></li>
 <li>
 <p>通过调整链接时的flag防止动态链接，因为如果你是使用Windows平台下的编译工具链，CLion有些时候最终链接并不是采用静态链接，导致你最终生成的可执行程序没法直接执行，这个时候你就需要使用下面的命令来强制静态链接了：</p>
@@ -666,10 +689,30 @@
 </span></code></pre></div><p>如果GLOB 换成GLOB_RECURSE ，那么上述命令将递归的搜寻其子目录的所有符合条件的文件，而不仅仅是一个层级。</p>
 </li>
 <li>
+<p><a href="https://cmake.org/cmake/help/latest/command/execute_process.html" target="_blank" rel="noopener noreffer">execute_process</a>：用于执行外部的命令，如下的示例代码是执行git clone命令，执行命令的工作目录在 <code>${CMAKE_BINARY_DIR}/deps/</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmake" data-lang="cmake"><span class="nb">execute_process</span><span class="p">(</span><span class="s">COMMAND</span> <span class="s">git</span> <span class="s">clone</span> <span class="s">https://github.com/&lt;username&gt;/&lt;repository&gt;.git</span>
+                <span class="s">WORKING_DIRECTORY</span> <span class="o">${</span><span class="nv">CMAKE_BINARY_DIR</span><span class="o">}</span><span class="s">/deps/&lt;repository&gt;</span><span class="p">)</span><span class="err">
+</span></code></pre></div></li>
+<li>
 <p><a href="https://cmake.org/cmake/help/latest/command/message.html" target="_blank" rel="noopener noreffer">message</a>：打印出信息用于debug。</p>
 </li>
 <li>
 <p><a href="https://cmake.org/cmake/help/latest/command/option.html" target="_blank" rel="noopener noreffer">option</a>：用于快速设置定义变量并赋值为对应的bool值，常被用于判断某些操作是否执行。</p>
+</li>
+<li>
+<p><a href="https://cmake.org/cmake/help/latest/command/find_package.html#id5" target="_blank" rel="noopener noreffer">find_package</a>：用于查找外界的package，其实就是查找外界对应的 <code>&lt;package&gt;Config.cmake</code> 和 <code>Find&lt;package&gt;.cmake</code> 文件，这些文件里有外界包对应的变量信息以及库和头文件的各种路径信息。我们需要注意一些有关 <code>find_package</code> 命令查找 Config.cmake 路径的变量：</p>
+<ul>
+<li><code>CMAKE_PREFIX_PATH</code> 变量是一个路径列表，CMake 会在这些路径中搜索包的 <code>Config.cmake</code> 文件。</li>
+<li><code>&lt;Package&gt;_DIR</code> 变量是指向包的 <code>Config.cmake</code> 文件的路径。如果你手动设置了这个变量，那么 <code>find_package</code> 命令就可以找到包的信息。</li>
+</ul>
+<p>同时他的一些常用参数如下：</p>
+<ul>
+<li><code>CONFIG</code> ：显式指定find_package去查找 <code>&lt;package&gt;Config.cmake</code> 文件，一般只要你在变量里面指定了 <code>&lt;package&gt;Config.cmake</code>的路径，那么该参数填不填都没差别。我建议最好还是带上该参数比较好。</li>
+<li><code>REQUIRED</code> ：该参数表示如果没找到，那么直接产生cmake错误，退出cmake执行过程，如果没有REQUIRED，则即使没找到也不会终止编译。</li>
+<li><code>PATHS</code> ：这个参数的效果和前面的变量类似，也是指定查找的路径。</li>
+<li><code>COMPONENTS</code> ：用于指定查找的模块，模块分离在不同的文件中，需要使用哪个就指定哪个模块。典型的就是使用Qt时的cmake代码，比如 <code>find_package(Qt5 COMPONENT Core Gui Widgets REQUIRED)</code> 。</li>
+<li>VERSION：可能有很多个不同版本的包，则需要通过该参数来指定，如：<code>find_package(XXX VERSION 1.2.3)</code>。</li>
+</ul>
 </li>
 <li>
 <p><a href="https://cmake.org/cmake/help/latest/command/include.html" target="_blank" rel="noopener noreffer">include</a>：从文件或模块加载并运行 CMake 代码。我用这个命令实际上只是为了使用 <a href="https://cmake.org/cmake/help/latest/module/FetchContent.html#id1" target="_blank" rel="noopener noreffer">FetchContent</a><a href="https://cmake.org/cmake/help/latest/module/FetchContent.html#fetchcontent" target="_blank" rel="noopener noreffer">¶</a> 这个module的功能，该功能是从cmake3.11开始支持的，使用该module前需要通过include命令加载该模块，命令如下：</p>
@@ -704,17 +747,52 @@
 </span><span class="err">
 </span><span class="err"></span><span class="nb">target_link_libraries</span><span class="p">(</span><span class="s">main</span> <span class="s">gtest_main</span><span class="p">)</span><span class="err">
 </span></code></pre></div></li>
+<li>
+<p><a href="https://cmake.org/cmake/help/latest/command/function.html" target="_blank" rel="noopener noreffer">function/endfunction</a> ：在cmake中用于定义函数，复用cmake代码的命令。第一个参数为函数的名称，后面为参数的名称，使用参数和使用变量时一样的，但是如果参数是列表类型，则在传入的时候就会被展开，然后与函数参数依次对应，多余的参数被 <code>ARGN</code> 参数吸收。</p>
+</li>
 </ol>
-<p>其他较为常用的命令（但我个人不怎么常用的）：</p>
+<p>更多较为常用的命令：</p>
 <ul>
-<li><a href="https://cmake.org/cmake/help/latest/command/add_custom_command.html" target="_blank" rel="noopener noreffer">add_custom_command</a>：添加自定义规则。</li>
+<li><a href="https://cmake.org/cmake/help/latest/command/add_custom_command.html" target="_blank" rel="noopener noreffer">add_custom_command</a>：添加自定义规则命令，同样也是执行外界命令，但多了根据依赖和产物判断执行时机的作用。</li>
 <li><a href="https://cmake.org/cmake/help/latest/command/install.html" target="_blank" rel="noopener noreffer">install</a>：添加install操作。</li>
 <li><a href="https://cmake.org/cmake/help/latest/command/string.html" target="_blank" rel="noopener noreffer">string</a>：对string的所有操作，比如字符串替换啥的。</li>
 <li><a href="https://cmake.org/cmake/help/latest/command/list.html" target="_blank" rel="noopener noreffer">list</a>：对list的所有操作，比如列表处理之类的。</li>
 <li><a href="https://cmake.org/cmake/help/latest/command/foreach.html" target="_blank" rel="noopener noreffer">foreach</a>：cmake中的for循环。</li>
 <li>&hellip;</li>
 </ul>
-<h2 id="ideavim的使用与设置">ideaVim的使用与设置</h2>
+<p>利用上述命令实现Qt开发中调用uic工具把 大量的 <code>.ui</code> 文件转化为 <code>.cpp</code> 和 <code>.h</code> 文件，并实现当ui文件更新时或 <code>.cpp/.h</code> 文件不存在时才创建对应的 <code>.cpp/.h</code> 文件。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmake" data-lang="cmake"><span class="c">#函数功能实现
+</span><span class="c"></span><span class="nb">function</span><span class="p">(</span><span class="s">get_ui_source</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>    <span class="nb">foreach</span> <span class="p">(</span><span class="s">item</span> <span class="o">${</span><span class="nv">ARGN</span><span class="o">}</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>        <span class="nb">set</span><span class="p">(</span><span class="s">UIC_EXE_PATH</span> <span class="o">${</span><span class="nv">VCPKG_ROOT</span><span class="o">}</span><span class="s">/installed/x64-windows/tools/qt5/bin/uic.exe</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>        <span class="nb">get_filename_component</span><span class="p">(</span><span class="s">name</span> <span class="o">${</span><span class="nv">item</span><span class="o">}</span> <span class="s">NAME_WLE</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>        <span class="nb">string</span><span class="p">(</span><span class="s">PREPEND</span> <span class="s">name</span> <span class="s2">&#34;ui_&#34;</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>        <span class="nb">set</span><span class="p">(</span><span class="s">output_h</span> <span class="o">${</span><span class="nv">PROJECT_SOURCE_DIR</span><span class="o">}</span><span class="s">/ui_gen/</span><span class="o">${</span><span class="nv">name</span><span class="o">}</span><span class="s">.h</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>        <span class="nb">set</span><span class="p">(</span><span class="s">output_cpp</span> <span class="o">${</span><span class="nv">PROJECT_SOURCE_DIR</span><span class="o">}</span><span class="s">/ui_gen/</span><span class="o">${</span><span class="nv">name</span><span class="o">}</span><span class="s">.cpp</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>        <span class="nb">file</span><span class="p">(</span><span class="s">TIMESTAMP</span> <span class="o">${</span><span class="nv">item</span><span class="o">}</span> <span class="s">ui_time</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>        <span class="c">#当.h文件已经存在时，仅当.ui文件被更新了才重新生成.h文件
+</span><span class="c"></span>        <span class="nb">if</span> <span class="p">(</span><span class="s">EXISTS</span> <span class="o">${</span><span class="nv">output_h</span><span class="o">}</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>            <span class="nb">file</span><span class="p">(</span><span class="s">TIMESTAMP</span> <span class="o">${</span><span class="nv">output_h</span><span class="o">}</span> <span class="s">h_time</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>            <span class="nb">if</span> <span class="p">(</span><span class="s">ui_time</span> <span class="s">GREATER</span> <span class="s">h_time</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>                <span class="nb">execute_process</span><span class="p">(</span><span class="s">COMMAND</span> <span class="o">${</span><span class="nv">UIC_EXE_PATH</span><span class="o">}</span> <span class="o">${</span><span class="nv">item</span><span class="o">}</span> <span class="s">-o</span> <span class="o">${</span><span class="nv">output_h</span><span class="o">}</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>            <span class="nb">endif</span> <span class="p">()</span><span class="err">
+</span><span class="err"></span>        <span class="nb">else</span> <span class="p">()</span><span class="err">
+</span><span class="err"></span>            <span class="nb">execute_process</span><span class="p">(</span><span class="s">COMMAND</span> <span class="o">${</span><span class="nv">UIC_EXE_PATH</span><span class="o">}</span> <span class="o">${</span><span class="nv">item</span><span class="o">}</span> <span class="s">-o</span> <span class="o">${</span><span class="nv">output_h</span><span class="o">}</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>        <span class="nb">endif</span> <span class="p">()</span><span class="err">
+</span><span class="err"></span>        <span class="c">#当.cpp文件已经存在时，仅当.ui文件被更新了才重新生成.cpp文件
+</span><span class="c"></span>        <span class="nb">if</span> <span class="p">(</span><span class="s">EXISTS</span> <span class="o">${</span><span class="nv">output_cpp</span><span class="o">}</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>            <span class="nb">file</span><span class="p">(</span><span class="s">TIMESTAMP</span> <span class="o">${</span><span class="nv">output_cpp</span><span class="o">}</span> <span class="s">cpp_time</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>            <span class="nb">if</span> <span class="p">(</span><span class="s">ui_time</span> <span class="s">GREATER</span> <span class="s">cpp_time</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>                <span class="nb">execute_process</span><span class="p">(</span><span class="s">COMMAND</span> <span class="o">${</span><span class="nv">UIC_EXE_PATH</span><span class="o">}</span> <span class="o">${</span><span class="nv">item</span><span class="o">}</span> <span class="s">-o</span> <span class="o">${</span><span class="nv">output_cpp</span><span class="o">}</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>            <span class="nb">endif</span> <span class="p">()</span><span class="err">
+</span><span class="err"></span>        <span class="nb">else</span> <span class="p">()</span><span class="err">
+</span><span class="err"></span>            <span class="nb">execute_process</span><span class="p">(</span><span class="s">COMMAND</span> <span class="o">${</span><span class="nv">UIC_EXE_PATH</span><span class="o">}</span> <span class="o">${</span><span class="nv">item</span><span class="o">}</span> <span class="s">-o</span> <span class="o">${</span><span class="nv">output_cpp</span><span class="o">}</span><span class="p">)</span><span class="err">
+</span><span class="err"></span>        <span class="nb">endif</span> <span class="p">()</span><span class="err">
+</span><span class="err"></span>    <span class="nb">endforeach</span> <span class="p">()</span><span class="err">
+</span><span class="err"></span><span class="nb">endfunction</span><span class="p">()</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">get_ui_source</span><span class="p">(</span><span class="o">${</span><span class="nv">UI_FILES</span><span class="o">}</span><span class="p">)</span> <span class="c">#g
+</span></code></pre></div><h2 id="ideavim的使用与设置">ideaVim的使用与设置</h2>
 <p>关于vim的基本操作，这里就不细讲，网络上大把大把的教程，我这里只讲在CLion中怎么使用vim，怎么配置vim让它在CLion中更好用。</p>
 <p>在使用ideaVim前，我们需要先下载 IdeaVim 这个拓展，ideaVim的链接：<a href="https://plugins.jetbrains.com/plugin/164-ideavim" target="_blank" rel="noopener noreffer">https://plugins.jetbrains.com/plugin/164-ideavim</a>，下载好后，应该是默认启用了的。</p>
 <p>一、配置ctrl+c和ctrl+v和ctrl+a防止这些你常用的快捷键被vim占用</p>
