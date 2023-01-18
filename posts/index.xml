@@ -3,7 +3,15 @@
         <title>所有文章 - L_B__</title>
         <link>https://acking-you.gitee.io/posts/</link>
         <description>所有文章 | L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 29 Dec 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 17 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>ejson4cpp使用文档</title>
+    <link>https://acking-you.gitee.io/posts/ejson4cpp%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/</link>
+    <pubDate>Tue, 17 Jan 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/ejson4cpp%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/2fe50a8ccac142f6b744b88999d0dc6c.png" referrerpolicy="no-referrer">
+            </div>代码仓库：https://github.com/ACking-you/ejson4cpp ejosn4cpp ：意味着这是一个使用上非常 easy，同时性能上也非]]></description>
+</item>
+<item>
     <title>CLion开发环境配置完全解析</title>
     <link>https://acking-you.gitee.io/posts/clion%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%85%A8%E8%A7%A3%E6%9E%90/</link>
     <pubDate>Thu, 29 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/clion%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%85%A8%E8%A7%A3%E6%9E%90/</guid>
@@ -74,14 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/385f4cc39feda8590ef42f86b38207ba.png#pic_center" referrerpolicy="no-referrer">
             </div>前言 在学习计算机组成原理时，书中谈到，&ldquo;使用多级页表可以压缩页表占用的内存&rdquo;，在了解了多级页表的原理后，恐怕对这句话]]></description>
-</item>
-<item>
-    <title>LCP68.美观的花束——sliding_window</title>
-    <link>https://acking-you.gitee.io/posts/lcp68.%E7%BE%8E%E8%A7%82%E7%9A%84%E8%8A%B1%E6%9D%9Fsliding_window/</link>
-    <pubDate>Fri, 07 Oct 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/lcp68.%E7%BE%8E%E8%A7%82%E7%9A%84%E8%8A%B1%E6%9D%9Fsliding_window/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/c3d009d6542a44155b5847c3a9c76dcd.png#pic_center" referrerpolicy="no-referrer">
-            </div>class Solution { public: const int mod = 1e9+7; int beautifulBouquet(vector&lt;int&gt;&amp; flowers, int cnt) { int n = flowers.size(); int ret = 0; int left = 0,right = 0; unordered_map&lt;int,int&gt; count; int option = 1; while(right &lt;= n){ if(option == 1){ //right指针向右边滑动，更新窗口上限 if(right == n){ option = 2; continue ;]]></description>
 </item>
 </channel>
 </rss>
