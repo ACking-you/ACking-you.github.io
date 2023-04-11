@@ -1,89 +1,89 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>L_B__</title>
-        <link>https://acking-you.gitee.io/</link>
+        <link>https://acking-you.github.io/</link>
         <description>专注记笔记</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 17 Jan 2023 00:00:00 &#43;0000</lastBuildDate>
-            <atom:link href="https://acking-you.gitee.io/index.xml" rel="self" type="application/rss+xml" />
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 25 Feb 2023 00:00:00 &#43;0000</lastBuildDate>
+            <atom:link href="https://acking-you.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>实现高性能时间轮用于踢出空闲连接</title>
+    <link>https://acking-you.github.io/posts/%E5%AE%9E%E7%8E%B0%E9%AB%98%E6%80%A7%E8%83%BD%E6%97%B6%E9%97%B4%E8%BD%AE%E7%94%A8%E4%BA%8E%E8%B8%A2%E5%87%BA%E7%A9%BA%E9%97%B2%E8%BF%9E%E6%8E%A5/</link>
+    <pubDate>Sat, 25 Feb 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E5%AE%9E%E7%8E%B0%E9%AB%98%E6%80%A7%E8%83%BD%E6%97%B6%E9%97%B4%E8%BD%AE%E7%94%A8%E4%BA%8E%E8%B8%A2%E5%87%BA%E7%A9%BA%E9%97%B2%E8%BF%9E%E6%8E%A5/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/2729ae8b8d3a403affb81167fb3b1604.png#pic_center" referrerpolicy="no-referrer">
+            </div>完整代码实现： netpoll/net/inner/timing_wheel.h netpoll/net/inner/timing_wheel.cc 实现契机 在网络框架的设计中,有一个环节是踢出空闲的连接,但是我觉得这个过程并不是一个很紧急的过程,有没有一种可以损失定时任]]></description>
+</item>
+<item>
+    <title>elog4cpp官方文档</title>
+    <link>https://acking-you.github.io/posts/elog4cpp%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/</link>
+    <pubDate>Mon, 13 Feb 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/elog4cpp%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/30474f138a1fd099890cfcb17099a60b.png#pic_center" referrerpolicy="no-referrer">
+            </div>代码仓库：https://github.com/ACking-you/elog4cpp elog4cpp ：意味着这是一个使用上非常 easy，同时性能上也非常]]></description>
+</item>
+<item>
+    <title>C&#43;&#43;工程实践必备：测试、基准测试、覆盖测试、性能分析、内存泄漏检测</title>
+    <link>https://acking-you.github.io/posts/c&#43;&#43;%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5%E5%BF%85%E5%A4%87%E6%B5%8B%E8%AF%95%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E8%A6%86%E7%9B%96%E6%B5%8B%E8%AF%95%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E6%A3%80%E6%B5%8B/</link>
+    <pubDate>Fri, 27 Jan 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/c&#43;&#43;%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5%E5%BF%85%E5%A4%87%E6%B5%8B%E8%AF%95%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E8%A6%86%E7%9B%96%E6%B5%8B%E8%AF%95%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E6%A3%80%E6%B5%8B/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/aa6bde4ddb8d4ddda947454fb8656ba3.png" referrerpolicy="no-referrer">
+            </div>单元测试框架 google test是一个C++中常用且历史悠久的测试框架，其他类似且较新的测试框架有 catch2 或 doetest等，这两个测试框架的优势在于引入简]]></description>
+</item>
+<item>
     <title>ejson4cpp使用文档</title>
-    <link>https://acking-you.gitee.io/posts/ejson4cpp%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/</link>
-    <pubDate>Tue, 17 Jan 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/ejson4cpp%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/</guid>
+    <link>https://acking-you.github.io/posts/ejson4cpp%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/</link>
+    <pubDate>Tue, 17 Jan 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/ejson4cpp%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/2fe50a8ccac142f6b744b88999d0dc6c.png" referrerpolicy="no-referrer">
             </div>代码仓库：https://github.com/ACking-you/ejson4cpp ejosn4cpp ：意味着这是一个使用上非常 easy，同时性能上也非]]></description>
 </item>
 <item>
     <title>CLion开发环境配置完全解析</title>
-    <link>https://acking-you.gitee.io/posts/clion%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%85%A8%E8%A7%A3%E6%9E%90/</link>
-    <pubDate>Thu, 29 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/clion%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%85%A8%E8%A7%A3%E6%9E%90/</guid>
+    <link>https://acking-you.github.io/posts/clion%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%85%A8%E8%A7%A3%E6%9E%90/</link>
+    <pubDate>Thu, 29 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/clion%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%85%A8%E8%A7%A3%E6%9E%90/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/c2804a2e21ea79a0b060126b82a9145c.png#pic_center" referrerpolicy="no-referrer">
             </div>下载与安装 关于CLion的安装我推荐安装最新的CLion 2022.3之后的版本，因为从这个版本后性能提升了很多，而且还增加了对cmake代码]]></description>
 </item>
 <item>
     <title>chatgpt教我内存对齐，对齐了但没完全对齐？</title>
-    <link>https://acking-you.gitee.io/posts/chatgp%E6%95%99%E6%88%91%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/</link>
-    <pubDate>Mon, 19 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/chatgp%E6%95%99%E6%88%91%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/</guid>
+    <link>https://acking-you.github.io/posts/chatgp%E6%95%99%E6%88%91%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/</link>
+    <pubDate>Mon, 19 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/chatgp%E6%95%99%E6%88%91%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/2729ae8b8d3a403affb81167fb3b1604.png#pic_center" referrerpolicy="no-referrer">
             </div>内存对齐 关于chatgpt的回答 我与chatgpt的对话如下： 我现在来描述与总结上述对话都干了啥以及我为什么要问这个。 我本来是在学习rapi]]></description>
 </item>
 <item>
     <title>关于并查集的一切</title>
-    <link>https://acking-you.gitee.io/posts/%E5%85%B3%E4%BA%8E%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%9A%84%E4%B8%80%E5%88%87/</link>
-    <pubDate>Mon, 19 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E5%85%B3%E4%BA%8E%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%9A%84%E4%B8%80%E5%88%87/</guid>
+    <link>https://acking-you.github.io/posts/%E5%85%B3%E4%BA%8E%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%9A%84%E4%B8%80%E5%88%87/</link>
+    <pubDate>Mon, 19 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E5%85%B3%E4%BA%8E%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%9A%84%E4%B8%80%E5%88%87/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/acea126d07748d6630f37b1b481e5d73.png#pic_center" referrerpolicy="no-referrer">
             </div>并查集初识 如果给你一些顶点，并且告诉你每个顶点的连接关系，你如何才能快速的找出两个顶点是否具有连通性呢？如「图 5. 连通性问题」，该图给出了顶点]]></description>
 </item>
 <item>
     <title>关于最小生成树的一切</title>
-    <link>https://acking-you.gitee.io/posts/%E5%85%B3%E4%BA%8E%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91%E7%9A%84%E4%B8%80%E5%88%87/</link>
-    <pubDate>Mon, 19 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E5%85%B3%E4%BA%8E%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91%E7%9A%84%E4%B8%80%E5%88%87/</guid>
+    <link>https://acking-you.github.io/posts/%E5%85%B3%E4%BA%8E%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91%E7%9A%84%E4%B8%80%E5%88%87/</link>
+    <pubDate>Mon, 19 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E5%85%B3%E4%BA%8E%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91%E7%9A%84%E4%B8%80%E5%88%87/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/acea126d07748d6630f37b1b481e5d73.png#pic_center" referrerpolicy="no-referrer">
             </div>初识最小生成树 首先，小伙伴们可能要冒出第一个问题了。什么是生成树？生成树 指的是「无向图」中，具有该图的 全部顶点 且 边数最少 的连通子图。「图8.]]></description>
 </item>
 <item>
     <title>zip、gzip、bzip2、tar有何联系？</title>
-    <link>https://acking-you.gitee.io/posts/zipgzipbzip2tar%E6%9C%89%E4%BD%95%E8%81%94%E7%B3%BB/</link>
-    <pubDate>Sun, 04 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/zipgzipbzip2tar%E6%9C%89%E4%BD%95%E8%81%94%E7%B3%BB/</guid>
+    <link>https://acking-you.github.io/posts/zipgzipbzip2tar%E6%9C%89%E4%BD%95%E8%81%94%E7%B3%BB/</link>
+    <pubDate>Sun, 04 Dec 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/zipgzipbzip2tar%E6%9C%89%E4%BD%95%E8%81%94%E7%B3%BB/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/385f4cc39feda8590ef42f86b38207ba.png#pic_center" referrerpolicy="no-referrer">
             </div>归类 我们把这几个命令归类为几种能力，一个是解压缩能力一个是打拆包能力。 我这里打包的意思是不使用压缩算法对文件进行压缩，只是简单的把多个文件归]]></description>
 </item>
 <item>
     <title>比较AVL树和红黑树的性能差异</title>
-    <link>https://acking-you.gitee.io/posts/%E6%AF%94%E8%BE%83avl%E6%A0%91%E5%92%8C%E7%BA%A2%E9%BB%91%E6%A0%91%E7%9A%84%E6%80%A7%E8%83%BD%E5%B7%AE%E5%BC%82/</link>
-    <pubDate>Wed, 30 Nov 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/%E6%AF%94%E8%BE%83avl%E6%A0%91%E5%92%8C%E7%BA%A2%E9%BB%91%E6%A0%91%E7%9A%84%E6%80%A7%E8%83%BD%E5%B7%AE%E5%BC%82/</guid>
+    <link>https://acking-you.github.io/posts/%E6%AF%94%E8%BE%83avl%E6%A0%91%E5%92%8C%E7%BA%A2%E9%BB%91%E6%A0%91%E7%9A%84%E6%80%A7%E8%83%BD%E5%B7%AE%E5%BC%82/</link>
+    <pubDate>Wed, 30 Nov 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E6%AF%94%E8%BE%83avl%E6%A0%91%E5%92%8C%E7%BA%A2%E9%BB%91%E6%A0%91%E7%9A%84%E6%80%A7%E8%83%BD%E5%B7%AE%E5%BC%82/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/c592952aec4e1c875073f2a3d970cde5.png#pic_center" referrerpolicy="no-referrer">
             </div>缘起 最近在复习数据结构，顺便把以前自己写的博客简单的看了一遍，然后发现了一篇手写AVL树的博客 徒手写的AVL竟然比STL中的红黑树效率更高？]]></description>
-</item>
-<item>
-    <title>C&#43;&#43;编译期反射——以AOP为例</title>
-    <link>https://acking-you.gitee.io/posts/c&#43;&#43;%E7%BC%96%E8%AF%91%E6%9C%9F%E5%8F%8D%E5%B0%84%E4%BB%A5aop%E4%B8%BA%E4%BE%8B/</link>
-    <pubDate>Fri, 25 Nov 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/c&#43;&#43;%E7%BC%96%E8%AF%91%E6%9C%9F%E5%8F%8D%E5%B0%84%E4%BB%A5aop%E4%B8%BA%E4%BE%8B/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/7213ded01d686aab797968b2a6064358.png#pic_center" referrerpolicy="no-referrer">
-            </div>编译期反射实践 自古以来，C++就一直缺少一个编程语言的重要特性——反射，但如果熟悉C++元模板编程的同学，就知道以C++的风格，肯定是不会在]]></description>
-</item>
-<item>
-    <title>go语言业务代码一键逆向生成</title>
-    <link>https://acking-you.gitee.io/posts/go%E4%B8%9A%E5%8A%A1%E4%BB%A3%E7%A0%81%E4%B8%80%E9%94%AE%E9%80%86%E5%90%91%E7%94%9F%E6%88%90/</link>
-    <pubDate>Fri, 18 Nov 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/go%E4%B8%9A%E5%8A%A1%E4%BB%A3%E7%A0%81%E4%B8%80%E9%94%AE%E9%80%86%E5%90%91%E7%94%9F%E6%88%90/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/acea126d07748d6630f37b1b481e5d73.png#pic_center" referrerpolicy="no-referrer">
-            </div>go_project_quickstart 快速开始 要求 Go 1.18 及以上版本 安装 1.下载并安装 gin： go get -u github.com/ACking-you/quickstart_project 2.将 gin 引入到代码中： import &quot;github.com/ACking-you/quickstart_project&quot; 3.一键根据数据库快速逆向生成所有业务代码： import ( &#34;github.com/ACking-you/quickstart_project&#34; &#34;github.com/ACking-you/quickstart_project/util&#34;]]></description>
-</item>
-<item>
-    <title>[CS原理]多级页表到底如何节约内存？</title>
-    <link>https://acking-you.gitee.io/posts/cs%E5%8E%9F%E7%90%86%E5%A4%9A%E7%BA%A7%E9%A1%B5%E8%A1%A8%E5%88%B0%E5%BA%95%E5%A6%82%E4%BD%95%E8%8A%82%E7%BA%A6%E5%86%85%E5%AD%98/</link>
-    <pubDate>Fri, 07 Oct 2022 00:00:00 &#43;0000</pubDate><guid>https://acking-you.gitee.io/posts/cs%E5%8E%9F%E7%90%86%E5%A4%9A%E7%BA%A7%E9%A1%B5%E8%A1%A8%E5%88%B0%E5%BA%95%E5%A6%82%E4%BD%95%E8%8A%82%E7%BA%A6%E5%86%85%E5%AD%98/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/385f4cc39feda8590ef42f86b38207ba.png#pic_center" referrerpolicy="no-referrer">
-            </div>前言 在学习计算机组成原理时，书中谈到，&ldquo;使用多级页表可以压缩页表占用的内存&rdquo;，在了解了多级页表的原理后，恐怕对这句话]]></description>
 </item>
 </channel>
 </rss>

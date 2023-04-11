@@ -4,20 +4,21 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title> - L_B__</title><meta name="description" content="专注记笔记"><meta property="og:title" content="" />
+        <title> - L_B__</title><meta name="referrer" content="no-referrer">
+<meta name="description" content="专注记笔记"><meta property="og:title" content="" />
 <meta property="og:description" content="手写http协议解析库 http协议的组成 http请求报文如下： http响应报文如下： 状态机设计 请求报文解析 响应报文解析 代码结构设计 基础结构类" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://acking-you.gitee.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" /><meta property="og:image" content="https://acking-you.gitee.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://acking-you.github.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" /><meta property="og:image" content="https://acking-you.github.io/logo.png"/><meta property="article:section" content="posts" />
 
 
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://acking-you.gitee.io/logo.png"/>
+<meta name="twitter:image" content="https://acking-you.github.io/logo.png"/>
 
 <meta name="twitter:title" content=""/>
 <meta name="twitter:description" content="手写http协议解析库 http协议的组成 http请求报文如下： http响应报文如下： 状态机设计 请求报文解析 响应报文解析 代码结构设计 基础结构类"/>
 <meta name="application-name" content="FeelIt">
-<meta name="apple-mobile-web-app-title" content="FeelIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="https://acking-you.gitee.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" /><link rel="next" href="https://acking-you.gitee.io/posts/%E7%9F%A9%E9%98%B5%E5%BF%AB%E9%80%9F%E5%B9%82%E7%9A%84c&#43;&#43;%E5%B0%81%E8%A3%85/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="FeelIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="https://acking-you.github.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" /><link rel="next" href="https://acking-you.github.io/posts/%E7%9F%A9%E9%98%B5%E5%BF%AB%E9%80%9F%E5%B9%82%E7%9A%84c&#43;&#43;%E5%B0%81%E8%A3%85/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -25,9 +26,9 @@
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/acking-you.gitee.io\/posts\/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8\/"
+            "@id": "https:\/\/acking-you.github.io\/posts\/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8\/"
         },"genre": "posts","wordcount":  472 ,
-        "url": "https:\/\/acking-you.gitee.io\/posts\/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8\/","publisher": {
+        "url": "https:\/\/acking-you.github.io\/posts\/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8\/","publisher": {
             "@type": "Organization",
             "name": "作者"},"author": {
                 "@type": "Person",
@@ -226,7 +227,7 @@
                 <span>更新于 0001-01-01</span>
             </div><div class="post-info-mod"></div>
         </div><div class="post-info-share">
-            <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://acking-you.gitee.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title=""><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://acking-you.gitee.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://acking-you.gitee.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title="" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://acking-you.gitee.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title=""><i class="fab fa-line fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://acking-you.gitee.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title=""><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Myspace" data-sharer="myspace" data-url="https://acking-you.gitee.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title="" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="https://acking-you.gitee.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title="" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://acking-you.gitee.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title=""><i class="fab fa-evernote fa-fw"></i></a></span>
+            <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://acking-you.github.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title=""><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://acking-you.github.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://acking-you.github.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title="" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://acking-you.github.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title=""><i class="fab fa-line fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://acking-you.github.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title=""><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Myspace" data-sharer="myspace" data-url="https://acking-you.github.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title="" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="https://acking-you.github.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title="" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://acking-you.github.io/posts/%E6%89%8B%E5%86%99http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%99%A8/" data-title=""><i class="fab fa-evernote fa-fw"></i></a></span>
         </div></div><div class="post-nav">
             <a href="/posts/%E7%9F%A9%E9%98%B5%E5%BF%AB%E9%80%9F%E5%B9%82%E7%9A%84c&#43;&#43;%E5%B0%81%E8%A3%85/" class="next" rel="next" title="矩阵快速幂的C&#43;&#43;封装">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div>
 </div></article></div>

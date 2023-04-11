@@ -4,20 +4,21 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Go语言编码规范和性能调优 - L_B__</title><meta name="description" content="Go语言编码规范和性能调优"><meta property="og:title" content="Go语言编码规范和性能调优" />
+        <title>Go语言编码规范和性能调优 - L_B__</title><meta name="referrer" content="no-referrer">
+<meta name="description" content="Go语言编码规范和性能调优"><meta property="og:title" content="Go语言编码规范和性能调优" />
 <meta property="og:description" content="Go语言编码规范和性能调优" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://acking-you.gitee.io/posts/glang3/" /><meta property="og:image" content="https://acking-you.gitee.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://acking-you.github.io/posts/glang3/" /><meta property="og:image" content="https://acking-you.github.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-05-11T00:00:00+00:00" />
 <meta property="article:modified_time" content="2022-05-11T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://acking-you.gitee.io/logo.png"/>
+<meta name="twitter:image" content="https://acking-you.github.io/logo.png"/>
 
 <meta name="twitter:title" content="Go语言编码规范和性能调优"/>
 <meta name="twitter:description" content="Go语言编码规范和性能调优"/>
 <meta name="application-name" content="FeelIt">
-<meta name="apple-mobile-web-app-title" content="FeelIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="https://acking-you.gitee.io/posts/glang3/" /><link rel="prev" href="https://acking-you.gitee.io/posts/golang-note2/" /><link rel="next" href="https://acking-you.gitee.io/posts/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="FeelIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="https://acking-you.github.io/posts/glang3/" /><link rel="prev" href="https://acking-you.github.io/posts/golang-note2/" /><link rel="next" href="https://acking-you.github.io/posts/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -25,9 +26,9 @@
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/acking-you.gitee.io\/posts\/glang3\/"
+            "@id": "https:\/\/acking-you.github.io\/posts\/glang3\/"
         },"genre": "posts","keywords": "Go语言编码规范和性能调优","wordcount":  3150 ,
-        "url": "https:\/\/acking-you.gitee.io\/posts\/glang3\/","datePublished": "2022-05-11T00:00:00+00:00","dateModified": "2022-05-11T00:00:00+00:00","publisher": {
+        "url": "https:\/\/acking-you.github.io\/posts\/glang3\/","datePublished": "2022-05-11T00:00:00+00:00","dateModified": "2022-05-11T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": "作者"},"author": {
                 "@type": "Person",
@@ -426,7 +427,7 @@
                 <span>更新于 2022-05-11</span>
             </div><div class="post-info-mod"></div>
         </div><div class="post-info-share">
-            <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://acking-you.gitee.io/posts/glang3/" data-title="Go语言编码规范和性能调优" data-hashtags="Go语言编码规范和性能调优"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://acking-you.gitee.io/posts/glang3/" data-hashtag="Go语言编码规范和性能调优"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://acking-you.gitee.io/posts/glang3/" data-title="Go语言编码规范和性能调优" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://acking-you.gitee.io/posts/glang3/" data-title="Go语言编码规范和性能调优"><i class="fab fa-line fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://acking-you.gitee.io/posts/glang3/" data-title="Go语言编码规范和性能调优" data-image="https://img-blog.csdnimg.cn/img_convert/f58e3cdfd042ae0db6a192022d83a1ac.png#pic_center"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Myspace" data-sharer="myspace" data-url="https://acking-you.gitee.io/posts/glang3/" data-title="Go语言编码规范和性能调优" data-description="Go语言编码规范和性能调优"><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="https://acking-you.gitee.io/posts/glang3/" data-title="Go语言编码规范和性能调优" data-description="Go语言编码规范和性能调优"><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://acking-you.gitee.io/posts/glang3/" data-title="Go语言编码规范和性能调优"><i class="fab fa-evernote fa-fw"></i></a></span>
+            <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://acking-you.github.io/posts/glang3/" data-title="Go语言编码规范和性能调优" data-hashtags="Go语言编码规范和性能调优"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://acking-you.github.io/posts/glang3/" data-hashtag="Go语言编码规范和性能调优"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://acking-you.github.io/posts/glang3/" data-title="Go语言编码规范和性能调优" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://acking-you.github.io/posts/glang3/" data-title="Go语言编码规范和性能调优"><i class="fab fa-line fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://acking-you.github.io/posts/glang3/" data-title="Go语言编码规范和性能调优" data-image="https://img-blog.csdnimg.cn/img_convert/f58e3cdfd042ae0db6a192022d83a1ac.png#pic_center"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Myspace" data-sharer="myspace" data-url="https://acking-you.github.io/posts/glang3/" data-title="Go语言编码规范和性能调优" data-description="Go语言编码规范和性能调优"><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="https://acking-you.github.io/posts/glang3/" data-title="Go语言编码规范和性能调优" data-description="Go语言编码规范和性能调优"><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://acking-you.github.io/posts/glang3/" data-title="Go语言编码规范和性能调优"><i class="fab fa-evernote fa-fw"></i></a></span>
         </div></div><div class="post-nav"><a href="/posts/golang-note2/" class="prev" rel="prev" title="Go语言工程实践（二） | 青训营笔记"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a>
             <a href="/posts/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/" class="next" rel="next" title="前端基础">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div>
 </div></article></div>
