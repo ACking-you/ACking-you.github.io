@@ -3,9 +3,65 @@
         <title>L_B__</title>
         <link>https://acking-you.github.io/</link>
         <description>专注记笔记</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 27 May 2023 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 28 May 2023 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://acking-you.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>MySQL日志：undo、redo、binlog</title>
+    <link>https://acking-you.github.io/posts/mysql%E6%97%A5%E5%BF%97undoredobinlog/</link>
+    <pubDate>Sun, 28 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/mysql%E6%97%A5%E5%BF%97undoredobinlog/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/8db816efd6abe83538c4d47108d9c840.png#pic_center" referrerpolicy="no-referrer">
+            </div>MySQL 日志：undo log、redo log、binlog 有什么用？ 我们知道一条查询语句经历的过程，这属于「读」一条记录的过程，如下图： 那么，执行]]></description>
+</item>
+<item>
+    <title>Redis常见面试题</title>
+    <link>https://acking-you.github.io/posts/redis%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+    <pubDate>Sun, 28 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/redis%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/c2804a2e21ea79a0b060126b82a9145c.png#pic_center" referrerpolicy="no-referrer">
+            </div>Redis 常见面试题 #认识 Redis #什么是 Redis？ 我们直接看 Redis 官方是怎么介绍自己的。 Redis 官方的介绍原版是英文的，我翻译成了中文后截图的，所以有些文字读起]]></description>
+</item>
+<item>
+    <title>一、MySQL有哪些锁</title>
+    <link>https://acking-you.github.io/posts/%E4%B8%80mysql%E6%9C%89%E5%93%AA%E4%BA%9B%E9%94%81/</link>
+    <pubDate>Sun, 28 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E4%B8%80mysql%E6%9C%89%E5%93%AA%E4%BA%9B%E9%94%81/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/c2804a2e21ea79a0b060126b82a9145c.png#pic_center" referrerpolicy="no-referrer">
+            </div>MySQL 有哪些锁？ 在 MySQL 里，根据加锁的范围，可以分为全局锁、表级锁和行锁三类。 #全局锁 全局锁是怎么用的？ 要使用全局锁，则要执行这条命令： flusht]]></description>
+</item>
+<item>
+    <title>一、事务的隔离级别是怎么实现的？</title>
+    <link>https://acking-you.github.io/posts/%E4%BA%8B%E5%8A%A1%E7%9A%84%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB%E6%98%AF%E6%80%8E%E4%B9%88%E5%AE%9E%E7%8E%B0%E7%9A%84/</link>
+    <pubDate>Sun, 28 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E4%BA%8B%E5%8A%A1%E7%9A%84%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB%E6%98%AF%E6%80%8E%E4%B9%88%E5%AE%9E%E7%8E%B0%E7%9A%84/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/30474f138a1fd099890cfcb17099a60b.png#pic_center" referrerpolicy="no-referrer">
+            </div>事务隔离级别是怎么实现的？ 这是我的钱包，共有 100 万元。 今天我心情好，我决定给你的转账 100 万，最后的结果肯定是我的余额变为 0 元，你的余额多了 100 万元]]></description>
+</item>
+<item>
+    <title>一、初见索引</title>
+    <link>https://acking-you.github.io/posts/%E4%B8%80%E5%88%9D%E8%A7%81%E7%B4%A2%E5%BC%95/</link>
+    <pubDate>Sun, 28 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E4%B8%80%E5%88%9D%E8%A7%81%E7%B4%A2%E5%BC%95/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/e5259f24f6a5a7fb2331d3fd0d18e631.png#pic_center" referrerpolicy="no-referrer">
+            </div>初见索引 面试中，MySQL 索引相关的问题基本都是一系列问题，都是先从索引的基本原理，再到索引的使用场景，比如： 索引底层使用了什么数据结构和算]]></description>
+</item>
+<item>
+    <title>二、可重复读隔离级别完全解决幻读了吗</title>
+    <link>https://acking-you.github.io/posts/%E4%BA%8C%E5%8F%AF%E9%87%8D%E5%A4%8D%E8%AF%BB%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB%E5%AE%8C%E5%85%A8%E8%A7%A3%E5%86%B3%E5%B9%BB%E8%AF%BB%E4%BA%86%E5%90%97/</link>
+    <pubDate>Sun, 28 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E4%BA%8C%E5%8F%AF%E9%87%8D%E5%A4%8D%E8%AF%BB%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB%E5%AE%8C%E5%85%A8%E8%A7%A3%E5%86%B3%E5%B9%BB%E8%AF%BB%E4%BA%86%E5%90%97/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/7213ded01d686aab797968b2a6064358.png#pic_center" referrerpolicy="no-referrer">
+            </div>MySQL 可重复读隔离级别，完全解决幻读了吗？ 在上一篇文章中提到，MySQL InnoDB 引擎的默认隔离级别虽然是「可重复读」，但是它很大程度上避免幻读现象（并]]></description>
+</item>
+<item>
+    <title>布隆过滤器</title>
+    <link>https://acking-you.github.io/posts/%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8/</link>
+    <pubDate>Sun, 28 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/c3d009d6542a44155b5847c3a9c76dcd.png#pic_center" referrerpolicy="no-referrer">
+            </div>在程序的世界中，布隆过滤器是程序员的一把利器，利用它可以快速地解决项目中一些比较棘手的问题。如网页 URL 去重、垃圾邮件识别、大集合中重复元素的判]]></description>
+</item>
+<item>
     <title>[内核源码]epoll实现原理</title>
     <link>https://acking-you.github.io/posts/%E5%86%85%E6%A0%B8%E6%BA%90%E7%A0%81epoll%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</link>
     <pubDate>Sat, 27 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E5%86%85%E6%A0%B8%E6%BA%90%E7%A0%81epoll%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</guid>
@@ -28,62 +84,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/acea126d07748d6630f37b1b481e5d73.png#pic_center" referrerpolicy="no-referrer">
             </div>执行一条 select 语句，期间发生了什么？ 学习 SQL 的时候，大家肯定第一个先学到的就是 select 查询语句了，比如下面这句查询语句： //在product表中，查询i]]></description>
-</item>
-<item>
-    <title>一、进程、线程基础知识</title>
-    <link>https://acking-you.github.io/posts/%E4%B8%80%E8%BF%9B%E7%A8%8B%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
-    <pubDate>Sat, 27 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E4%B8%80%E8%BF%9B%E7%A8%8B%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/687db1a327b1ff978e25faf116abe71a.png#pic_center" referrerpolicy="no-referrer">
-            </div>进程、线程基础知识 先来看看一则小故事 我们写好的一行行代码，为了让其工作起来，我们还得把它送进城（进程）里，那既然进了城里，那肯定不能胡作非为]]></description>
-</item>
-<item>
-    <title>三、进程间通信方式</title>
-    <link>https://acking-you.github.io/posts/%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F/</link>
-    <pubDate>Sat, 27 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/687db1a327b1ff978e25faf116abe71a.png#pic_center" referrerpolicy="no-referrer">
-            </div>进程间有哪些通信方式？ 直接开讲！ 每个进程的用户地址空间都是独立的，一般而言是不能互相访问的，但内核空间是每个进程都共享的，所以进程之间要通信]]></description>
-</item>
-<item>
-    <title>二、MySQL一条记录怎么存储的？</title>
-    <link>https://acking-you.github.io/posts/%E4%BA%8Cmysql%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E6%80%8E%E4%B9%88%E5%AD%98%E5%82%A8%E7%9A%84/</link>
-    <pubDate>Sat, 27 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E4%BA%8Cmysql%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E6%80%8E%E4%B9%88%E5%AD%98%E5%82%A8%E7%9A%84/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/daefa95e021376b822b5938e65b8252b.png#pic_center" referrerpolicy="no-referrer">
-            </div>MySQL 一行记录是怎么存储的？ 有人被问到这么个问题： 如果你知道 MySQL 一行记录的存储结构，那么这个问题对你没什么难度。 如果你不知道也没关系，这次我跟大家]]></description>
-</item>
-<item>
-    <title>二、多线程冲突了怎么办</title>
-    <link>https://acking-you.github.io/posts/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%86%B2%E7%AA%81%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</link>
-    <pubDate>Sat, 27 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%86%B2%E7%AA%81%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/c592952aec4e1c875073f2a3d970cde5.png#pic_center" referrerpolicy="no-referrer">
-            </div>多线程冲突了怎么办？ 先来看看虚构的小故事 已经晚上 11 点了，程序员小明的双手还在键盘上飞舞着，眼神依然注视着的电脑屏幕。 没办法这段时间公司业绩增]]></description>
-</item>
-<item>
-    <title>lab0-实现ByteStream</title>
-    <link>https://acking-you.github.io/posts/lab0-%E5%AE%9E%E7%8E%B0bytestream/</link>
-    <pubDate>Thu, 13 Apr 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/lab0-%E5%AE%9E%E7%8E%B0bytestream/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/f58e3cdfd042ae0db6a192022d83a1ac.png#pic_center" referrerpolicy="no-referrer">
-            </div>CS144 lab0 lab0具体的相关事宜可以查看博客:https://kiprey.github.io/2021/11/cs144-lab0/ 完整项目代码]]></description>
-</item>
-<item>
-    <title>lab1-实现StreamReassembler</title>
-    <link>https://acking-you.github.io/posts/lab1-%E5%AE%9E%E7%8E%B0streamreassembler/</link>
-    <pubDate>Thu, 13 Apr 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/lab1-%E5%AE%9E%E7%8E%B0streamreassembler/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/9c7b214855b7ea22ad8549a1afb50fc7.png#pic_center" referrerpolicy="no-referrer">
-            </div>CS144 lab1 lab1具体的相关事宜可以查看博客:https://kiprey.github.io/2021/11/cs144-lab1/ 完整项目代码]]></description>
-</item>
-<item>
-    <title>TcpConnectionImpl如何高效且统一处理IO事件</title>
-    <link>https://acking-you.github.io/posts/tcpconnectionimpl%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E4%B8%94%E7%BB%9F%E4%B8%80%E5%A4%84%E7%90%86io%E4%BA%8B%E4%BB%B6/</link>
-    <pubDate>Wed, 12 Apr 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/tcpconnectionimpl%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E4%B8%94%E7%BB%9F%E4%B8%80%E5%A4%84%E7%90%86io%E4%BA%8B%E4%BB%B6/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/c592952aec4e1c875073f2a3d970cde5.png#pic_center" referrerpolicy="no-referrer">
-            </div>TcpConnectionImpl如何高效且统一处理IO事件]]></description>
 </item>
 </channel>
 </rss>
