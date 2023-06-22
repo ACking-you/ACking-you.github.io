@@ -3,7 +3,23 @@
         <title>所有文章 - L_B__</title>
         <link>https://acking-you.github.io/posts/</link>
         <description>所有文章 | L_B__</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 02 Jun 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 22 Jun 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://acking-you.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[C&#43;&#43;]CLion集成vcpkg一键完成包管理——以使用imgui为例</title>
+    <link>https://acking-you.github.io/posts/c&#43;&#43;clion%E9%9B%86%E6%88%90vcpkg%E4%B8%80%E9%94%AE%E5%AE%8C%E6%88%90%E5%8C%85%E7%AE%A1%E7%90%86/</link>
+    <pubDate>Thu, 22 Jun 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/c&#43;&#43;clion%E9%9B%86%E6%88%90vcpkg%E4%B8%80%E9%94%AE%E5%AE%8C%E6%88%90%E5%8C%85%E7%AE%A1%E7%90%86/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/e5259f24f6a5a7fb2331d3fd0d18e631.png#pic_center" referrerpolicy="no-referrer">
+            </div>下载并集成vcpkg 首先，请确保 CLion 版本高于 2023.1。 按两下 shift 搜索 vcpkg ，并点击可进入 CLion 对 vcpkg 的支持模块。 如下图： CLion对vcpkg的操作模]]></description>
+</item>
+<item>
+    <title>使用Rabin-Karp算法替代KMP</title>
+    <link>https://acking-you.github.io/posts/%E4%BD%BF%E7%94%A8rabin-karp%E7%AE%97%E6%B3%95%E6%9B%BF%E4%BB%A3kmp/</link>
+    <pubDate>Sun, 04 Jun 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E4%BD%BF%E7%94%A8rabin-karp%E7%AE%97%E6%B3%95%E6%9B%BF%E4%BB%A3kmp/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://img-blog.csdnimg.cn/img_convert/c2804a2e21ea79a0b060126b82a9145c.png#pic_center" referrerpolicy="no-referrer">
+            </div>Rabin-Karp算法 Rabin-Karp算法是利用滑动窗口的方式来计算哈希值，并通过该哈希值直接进行比较来判断字符串是否匹配，也就是消减]]></description>
+</item>
+<item>
     <title>使用expected进行错误处理</title>
     <link>https://acking-you.github.io/posts/%E4%BD%BF%E7%94%A8expected%E8%BF%9B%E8%A1%8C%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/</link>
     <pubDate>Fri, 02 Jun 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E4%BD%BF%E7%94%A8expected%E8%BF%9B%E8%A1%8C%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/</guid>
@@ -66,22 +82,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://img-blog.csdnimg.cn/img_convert/7213ded01d686aab797968b2a6064358.png#pic_center" referrerpolicy="no-referrer">
             </div>MySQL 可重复读隔离级别，完全解决幻读了吗？ 在上一篇文章中提到，MySQL InnoDB 引擎的默认隔离级别虽然是「可重复读」，但是它很大程度上避免幻读现象（并]]></description>
-</item>
-<item>
-    <title>布隆过滤器</title>
-    <link>https://acking-you.github.io/posts/%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8/</link>
-    <pubDate>Sun, 28 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/c3d009d6542a44155b5847c3a9c76dcd.png#pic_center" referrerpolicy="no-referrer">
-            </div>在程序的世界中，布隆过滤器是程序员的一把利器，利用它可以快速地解决项目中一些比较棘手的问题。如网页 URL 去重、垃圾邮件识别、大集合中重复元素的判]]></description>
-</item>
-<item>
-    <title>[内核源码]epoll实现原理</title>
-    <link>https://acking-you.github.io/posts/%E5%86%85%E6%A0%B8%E6%BA%90%E7%A0%81epoll%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</link>
-    <pubDate>Sat, 27 May 2023 00:00:00 &#43;0000</pubDate><guid>https://acking-you.github.io/posts/%E5%86%85%E6%A0%B8%E6%BA%90%E7%A0%81epoll%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://img-blog.csdnimg.cn/img_convert/687db1a327b1ff978e25faf116abe71a.png#pic_center" referrerpolicy="no-referrer">
-            </div>文章主要对 tcp 通信进行 epoll 源码走读。 引发我对 epoll 源码感兴趣的原因在于知乎上的一个提问，ET和LT模式在源码中到底怎么实现的 Linux 源码：Linux 5.7 版本]]></description>
 </item>
 </channel>
 </rss>
